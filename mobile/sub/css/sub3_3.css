@@ -1,0 +1,14 @@
+#content h3{font-size: 1.375em;font-family: 'Nanum Gothic', sans-serif; margin: 5%}
+#content p{line-height: 1.5em; margin: 5%}
+#content .content_area>ul{width: 90%; margin: 2% 5%}
+#content .content_area>ul li{margin: 5%; position: relative}
+#content .content_area>ul li::before{content: ''; width: 5px; height: 5px; border-radius: 50%; background: #00adef; position: absolute; left: -10px; top: 5px}
+#content h4{font-size: 1.2em; font-family: 'Nanum Myeongjo', serif; font-weight: bold; margin: 5%}
+
+#content .gallery{width: 95%; margin: 0 2.5%}
+#content .gallery #big{width: 100%}
+#content .gallery .big li:nth-of-type(1){display: block}
+#content .gallery .btngroup{overflow: hidden; width: 95%; margin: 2%}
+#content .gallery .btngroup li{float: left; width: 23%;border: 2px solid #e34e09; margin: 0 1%; box-sizing: border-box}
+#content .gallery .btngroup li:last-of-type{float: right}
+#content .gallery .btngroup li img{width: 100%}

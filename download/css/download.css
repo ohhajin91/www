@@ -1,0 +1,71 @@
+#content {width: 1200px; margin: 0 auto; overflow: hidden;position: relative}
+/*list.php*/
+#content .data{position: relative; overflow: hidden; margin-bottom: 50px}
+#content h3{font-family: 'Roboto', sans-serif; font-size: 2.5em; text-align: center; margin-bottom: 50px}
+#content .data form{height: 40px; margin-top: 30px}
+#content .data .search_wrap{position: absolute; left: 50%; margin-left: -230px; top: 110px}
+#content .data .search_wrap i{font-size: 1.1em; margin-right: 5px}
+#content .data .search_wrap select{height: 30px; padding: 0 15px; border: 1px solid #ccc;border-radius: 3px}
+#content .data .search_wrap input:nth-of-type(1){height: 26px;width: 300px;  padding-left: 15px; border: 1px solid #ccc; border-radius: 3px; margin: 0 5px}
+#content .data>div:nth-of-type(2){overflow: hidden}
+#content .data .total{float: left;
+font-family: 'Roboto', sans-serif; margin-top: 50px}
+#content .data .no_view{float: right}
+#content .data .no_view a{margin: 0 10px; font-size: 1.3em}
+#content .data .no_view a:hover i{color: #00adef}
+#content .data .no_view select{padding: 5px; border: none; outline: none; font-size: .95em; margin-top: 50px; margin-right: 5px}
+
+#content .data .data_con{border-top: 3px solid #00adef;margin: 50px auto; width: 1200px}
+#content .data .board_wrap{display: block; width: 350px;;height: 300px; overflow: hidden;float: left; margin: 30px 25px; border: 2px solid #ddd; box-sizing: border-box; position: relative; padding: 25px; border-radius: 5px}
+#content .data .board{width: 100%;padding: 10px 0; text-align: center}
+#content .data .board li:nth-of-type(1){margin-bottom: 15px; overflow: hidden;width: 260px; height: 160px;margin-left: 20px}
+#content .data .board li:nth-of-type(1) img{width: 100%}
+#content .data .board li:nth-of-type(2){padding-top: 10px}
+#content .data .board li:last-of-type{position: absolute;bottom: 15px; left: 50%; margin-left: -90px}
+#content .data .board li:last-of-type>i:nth-of-type(1){margin-right: 20px}
+
+#content .data .data_con:nth-of-type(2){display: none}
+#content .data .row{overflow: hidden; padding: 25px 0; border-bottom: 1px solid #ddd}
+#content .data .row li{float: left; text-align: center}
+#content .data .row li:nth-of-type(1){width: 340px; margin-left: 50px}
+#content .data .row li:nth-of-type(1) div{width: 70%;height: 150px; overflow: hidden;position: relative}
+#content .data .row li:nth-of-type(1) div img{width: 100%}
+#content .data .row li:nth-of-type(1) div i{position: absolute; right: 0; bottom: 5px; background: #fff; color: #00adef; padding: 5px}
+#content .data .row li:nth-of-type(2){width: 550px; font-family: 'Nanum Gothic', sans-serif; padding: 30px}
+#content .data .row li:nth-of-type(2) dl{position: relative; text-align: left}
+#content .data .row li:nth-of-type(2) dt{margin-bottom: 50px}
+#content .data .fas{margin-right: 5px; color: #666}
+#content .data .row li:nth-of-type(3){width: 110px; padding-top: 60px}
+
+#content .data .page_button{margin: 50px 0 0 0; text-align: center; position: relative; clear: both}
+#content .data .page_button i{cursor: pointer; color: #00adef}
+#content .data .button{position: absolute; right: 0; top: 0}
+
+.current{color: #00adef}
+
+/*view.php*/
+#content .data_view p{margin: 30px auto; text-align: center;font-family: 'Nanum Gothic', sans-serif}
+#content .data_view div:nth-of-type(1){margin: 30px auto; border: 1px solid #ddd; border-radius: 3px; padding: 30px;text-align: center;line-height: 1.5em}
+#content .data_view div:nth-of-type(1) img{margin: 30px auto}
+#content .data_view div:nth-of-type(1) img:nth-of-type(2),#content .data_view div:nth-of-type(1) img:nth-of-type(3){display: none}
+#content .data_view div:nth-of-type(1) p{width: 900px; margin-left: 150px}
+#content .data_view ul:last-of-type{overflow: hidden; margin: 30px auto;margin-left: 450px}
+#content .data_view ul:last-of-type li{float: right; margin-right: 20px; position: relative}
+#content .data_view ul:last-of-type li::after{content: '|'; position: absolute; right: -10px; top: 0; color: #999}
+#content .data_view ul:last-of-type li:last-of-type::after{content: ''}
+
+/*write_form.php*/
+#content .data_write{margin-bottom: 50px}
+#content .data_write form>ul:nth-of-type(1){overflow: hidden; margin-bottom: 30px; border-bottom: 1px solid #ddd; border-top: 3px solid #00adef; padding: 30px 0; text-align: center}
+#content .data_write form>ul:nth-of-type(1) li{margin: 20px auto; padding: 10px 0}
+#content .data_write form>ul:nth-of-type(1)>li:nth-of-type(1){border-bottom: 1px solid #ddd}
+#content .data_write form>ul:nth-of-type(1)>li:nth-of-type(2) input{width: 98%; padding: 10px 5px}
+#content .data_write form>ul:nth-of-type(1) li textarea{padding:5px}
+#content .data_write form>ul:nth-of-type(1) li dl{padding: 10px 0; margin-left: 10px; overflow: hidden}
+#content .data_write form>ul:nth-of-type(1) li dl dt{float: left; margin-left: 320px; margin-right: 50px}
+#content .data_write form>ul:nth-of-type(1) li dl dd{float: left}
+#content .data_write form>ul:nth-of-type(1) li ul i{color: #00adef; font-size: 1.1em;margin-right: 10px}
+#content .data_write form>ul:last-of-type{overflow: hidden; position: relative; left: 50%; margin-left: -80px}
+#content .data_write form>ul:last-of-type li{float: left; margin-right: 30px;position: relative}
+#content .data_write form>ul:last-of-type>li::after{content: '|'; position: absolute; right: -17px; top: 0; color: #888}
+#content .data_write form>ul:last-of-type>li:first-of-type::after{content: ''}

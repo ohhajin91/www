@@ -1,0 +1,38 @@
+#content .content_area div{margin-bottom: 10%; position: relative; overflow: hidden}
+#content h3{font-size: 1.4em; font-family: 'Roboto', sans-serif; text-align: center}
+#content .content_area div:nth-of-type(1) ul{overflow: hidden}
+#content .content_area div:nth-of-type(1) li{float: left; width: 46%; margin: 5% 2%}
+#content .content_area div:nth-of-type(1) li:nth-of-type(2){float: right}
+#content .content_area div:nth-of-type(1) img{width: 100%}
+#content .content_area div:nth-of-type(1) p{margin: 3%; line-height: 1.5em}
+
+#content .content_area div:nth-of-type(2){left: 10%}
+#content .content_area div:nth-of-type(3) ul li{margin-bottom: 8%; position: relative}
+#content .content_area div:nth-of-type(2) ul li:last-of-type{margin-bottom: 0}
+#content .content_area div:nth-of-type(2) ul li h4{font-size: 1.3em; font-family: 'Roboto', sans-serif; margin-bottom: 3%}
+
+#content .content_area div:nth-of-type(3){ left: 0}
+#content .content_area div:nth-of-type(3) ul{overflow: hidden}
+#content .content_area div:nth-of-type(3) li{float: left; width: 29.33%; padding: 5%; box-sizing: border-box; margin: 0 2%; position: relative}
+#content .content_area div:nth-of-type(3) li:last-of-type{float: right}
+#content .content_area div:nth-of-type(3) li::after{content: ''; width: 1px; height: 70%; background: #ccc; position: absolute; right: -5%; top: 15%}
+#content .content_area div:nth-of-type(3) li:last-of-type::after{content: ''; width: 0; height: 0}
+#content .content_area div:nth-of-type(3) li dt{font-family: 'Roboto', sans-serif; color: #00adef; font-size: 1.25em; margin-bottom: 15px; position: relative}
+#content .content_area div:nth-of-type(3) li dt::after{content: ''; width: 15px; height: 2px; background: #e34e09; position: absolute; left: 0; bottom: -5px}
+#content .content_area div:nth-of-type(3) li dd{line-height: 1.5em}
+
+#content .content_area div:nth-of-type(4){background: #f2f2f2; padding: 7%}
+#content .content_area div:nth-of-type(4) h5{font-size: 1.1em; font-family: 'Nanum Gothic', sans-serif; text-align: center; margin-bottom: 5%; margin-left: 20%}
+#content .content_area div:nth-of-type(4) p{font-family: 'Roboto', sans-serif; color: #e34e09; font-weight: bold; text-align: center; font-size: 1.3em; margin-left: 20%}
+
+#content .content_area div:nth-of-type(4) span{display: block; text-indent: -10000%; background:url("../images/brand_tag_320.jpg") no-repeat;position: absolute; left: 5%; top: 50%; margin-top: -20px;
+ overflow: hidden; width: 90px; height: 41px;background-size:90px 41px; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+ #content .content_area div:nth-of-type(4) span{ background: url("../images/brand_tag_640.jpg");
+     background-size: 90px 41px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+ #content .content_area div:nth-of-type(4) span{ background: url("../images/brand_tag_960.jpg");
+     background-size: 90px 41px;}
+}

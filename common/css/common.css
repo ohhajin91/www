@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px;
+  color: #333}
+ol, ul{list-style: none}
+table{border-collapse: collapse; border-spacing: 0}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+#skipNav{position:relative; z-index: 10; width:100%;overflow:hidden;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px; overflow:hidden; text-align:center; font-size:10px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{height:auto; padding:10px 0; background:#f2f2f2;}
+
+
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/* 헤더공통영역*/
+#wrap{width: 100%; overflow: hidden}
+
+header.basic{overflow: hidden;height: 249px;position: fixed; z-index: 100;background: #fff;width: 100%; border-bottom: 1px solid #ccc}
+.slim{height: 110px; position: fixed;z-index: 100;background: #fff;width: 100%; border-bottom: 1px solid #ccc}
+#headerArea .header_inner{width: 1200px; margin: 0 auto; position: relative}
+
+#headerArea h1{width: 308px; height: 74px; position: relative; left: 50%; margin-left: -154px; top: 75px}
+#headerArea .logo a{display: block; text-indent: -9999px; background: url(../images/logo.jpg)no-repeat; width: 308px; height: 74px}
+#headerArea .logo_1{width: 80px; height: 68px;left: 250px; top: 40px}
+#headerArea .logo_1 a{display: block; text-indent: -9999px; background: url(../images/logo_1.jpg)no-repeat; width: 80px; height: 68px}
+
+/*header top_menu*/
+#headerArea .top_menu{position: fixed; left: 0; top: 0; width: 100%; background: #f2f2f2; padding: 5px; height: 35px; box-sizing: border-box; overflow: hidden;font-size: 1.125em}
+#headerArea .top_menu ul:nth-of-type(1){overflow: hidden; float: left; margin-left: 400px}
+#headerArea .top_menu ul:nth-of-type(2){overflow: hidden; float: right; margin-right: 350px}
+#headerArea .top_menu ul:nth-of-type(1)>li{padding-top: 3px}
+#headerArea .top_menu ul a{display: block}
+#headerArea .top_menu li{float: left;font-family: 'Nanum Gothic', sans-serif; font-weight: normal; transition: all .8s}
+#headerArea .top_menu li{margin-right: 20px; margin-left: 10px;position: relative; margin-right: 30px}
+#headerArea .top_menu ul:nth-of-type(1)>li:first-of-type::after{content: '|'; position: absolute; right: -20px; top:3px}
+#headerArea .top_menu ul:nth-of-type(2)>li:first-of-type::after{content: '|'; position: absolute; right: -20px; top:0}
+#headerArea .top_menu a:hover{color: #00adef}
+#headerArea .top_menu ul:nth-of-type(2)>li{margin-top: 3px}
+#headerArea .top_menu ul:nth-of-type(2) li span{display: block; text-indent: -10000px; width: 1px; height: 1px; color: #fff; overflow: hidden}
+
+/*site map*/
+.map_wrap{width: 100%; height: 100%; position: fixed; left: 0; top: 0; z-index: 200; background: #fff}
+.map_wrap::after{content: url("../../common/images/sitemap_bot.png"); width: 516px; height: 262px; position: absolute; right: 20%; bottom: 10%; z-index: -100}
+.map_wrap .map_inner{width: 1000px; margin: 0 auto; position: relative}
+.map_wrap .map_inner img{display: block; padding-top: 120px}
+.map_wrap .map_inner h4{font-size: 1.85em; margin-top: 100px;font-family: 'Roboto', sans-serif; font-weight: normal}
+.map_wrap .map_inner ul{width: 100%; margin-top: 70px}
+.map_wrap .map_inner ul li{margin: 30px auto; padding: 10px 0}
+.map_wrap .map_inner dl{overflow: hidden;font-family: 'Nanum Gothic', sans-serif}
+.map_wrap .map_inner dl dt{float: left; font-size: 1.3em; font-weight: 600; padding: 5px 0; transition: all .8s; margin-right: 40px; position: relative}
+.map_wrap .map_inner dl dt::after{content: ''; width: 2px; height: 20px; background: #00adef; position: absolute; right: -25px; top: 10px}
+.map_wrap .map_inner dl dd{font-size: 1.1em; padding: 7px;margin-right: 10px  ; float: left}
+.map_wrap .map_inner dl dd a{transition: all .8s}
+.map_wrap .map_inner dl dd a:hover{color: #e34e09; font-weight: bold}
+.map_wrap .map_inner .close_btn{display: block; text-indent: -9999px; background: url("../../common/images/close.png")no-repeat; width: 50px; height: 50px; position: absolute; right: 10%; top: 120px}
+
+/*GNB공통영역*/
+#headerArea #gnb{clear: both; width: 1200px; padding-top: 18px}
+#headerArea #gnb .dropdownmenu{float:left; position: relative; left: 0; top: 105px;width: 1200px}
+#headerArea #gnb .dropdownmenu .menu{float: left;position: relative; width: 240px; height: 42px}
+#headerArea #gnb .dropdownmenu .menu h3{position: relative; width: 240px; height: 21px; overflow: hidden}
+#headerArea #gnb .dropdownmenu .depth1{position: absolute; text-indent: -9999px; display: block; width: 200px; height: 50px; padding: 0 20px; margin-left: 20px; left: 0; top: 0}
+#headerArea #gnb .dropdownmenu .m1 .depth1{background: url(../images/depth1.jpg) no-repeat}
+#headerArea #gnb .dropdownmenu .m2 .depth1{background: url(../images/depth2.jpg) no-repeat}
+#headerArea #gnb .dropdownmenu .m3 .depth1{background: url(../images/depth3.jpg) no-repeat}
+#headerArea #gnb .dropdownmenu .m4 .depth1{background: url(../images/depth4.jpg) no-repeat}
+#headerArea #gnb .dropdownmenu .m5 .depth1{background: url(../images/depth5.jpg) no-repeat}
+#headerArea #gnb .dropdownmenu li ul{width:240px;position:absolute;top:30px;left:0;padding:15px 0; height: 170px; display: none}
+#headerArea #gnb .dropdownmenu li ul li{text-align:center; font-family: 'Nanum Gothic', sans-serif}
+#headerArea #gnb .dropdownmenu li ul li a{color:#666; display:block; padding: 10px ; transition: all .5s}
+#headerArea #gnb .dropdownmenu li ul li a:hover{color: #e34e09; font-weight: bold}
+
+/*top 공통영역*/
+.top{display:block; width: 50px; height: 50px; background: #00adef; border-radius: 25px; position: fixed; left:50%; margin-left: 650px; bottom:400px;z-index: 50}
+.top span{font-size: 1.2em; color: #fff; display: block; text-align: center; margin-top:13px;font-family: 'Roboto', sans-serif}
+.top span::after{content: 'º'; color: #fff; position: absolute; left: 50%; top: 5px; margin-left: -4px}
+
+
+/*푸터공통영역*/
+#footerArea{width: 100%;height: 350px; background: #2e2e2e;position: relative; padding: 15px 0}
+#footerArea .footer_logo{display: block; width: 161px; height: 84px; position: relative; left: 50%; bottom: 15%; margin: 30px 0 20px -80px}
+#footerArea>ul:nth-of-type(1){overflow: hidden;margin: 50px 0 30px -280px; position: relative; left: 50%}
+#footerArea>ul:nth-of-type(1)>li a{color: #fff; margin-left: 15px; font-size: 0.9em}
+#footerArea>ul:nth-of-type(1)>li{float: left; margin-right: 20px;position: relative}
+#footerArea>ul:nth-of-type(1)>li::after{content: ''; width: 1px; height: 15px; background: #ccc; position: absolute; top: 3px; right: -20px}
+#footerArea>ul:nth-of-type(1)>li:last-child::after{content: ''; width: 0; height: 0}
+#footerArea>ul:nth-of-type(1)>li:last-child{margin-right:0}
+#footerArea address{width: 634px; font-size: 0.875em; color: #fff;line-height: 1.5em; margin: 30px auto;text-align: center}
+
+#footerArea .family_site{width: 150px; height: 40px; border: 1px solid #ccc;position: relative; left: 75%;top: -120px; margin-left: -75px; border-radius: 5px}
+#footerArea .family_site .arrow{display: block; font-size: 1.2em; color: #fff; padding: 7px 17px; box-sizing: border-box;font-family: 'Roboto', sans-serif}
+#footerArea .family_site .arrow:hover{color: #00adef}
+#footerArea .family_site .arrow::after{content: '+';position: absolute; right: 20px}
+#footerArea .family_site .alist{position: absolute; top: 40px; left: -1px; width: 150px; border: 1px solid #ccc; display: none; z-index: 20}
+#footerArea .family_site .alist li{line-height: 2em; border-bottom: 1px solid #fff;font-family: 'Roboto', sans-serif}
+#footerArea .family_site .alist li a{padding-left: 15px; color: #fff; font-size: 1em; display: block; background: #3c3c3c}
+#footerArea .family_site .alist li a:hover{color: #00adef;}
+
+#footerArea div:last-of-type{font-size: 0.8em; color: #fff; text-align: justify; border: 2px solid #bc570e; line-height: 1.5em; position: absolute; right: 20%; top: 60%;margin-top: -38px; padding: 10px}
+
+
+

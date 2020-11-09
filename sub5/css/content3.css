@@ -1,0 +1,11 @@
+#content{width: 1200px; margin: 0 auto; overflow: hidden}
+
+#content #new li{border-bottom: 1px dashed #ccc; margin: 50px auto; padding-bottom: 50px; box-sizing: border-box}
+#content #new li:last-of-type{border-bottom: none}
+#content #new figure{overflow: hidden;transition: all 1s; width: 95%}
+#content #new a{float: left}
+#content #new dl{width: 600px;float: right; padding: 0 20px; box-sizing: border-box}
+#content #new dt{font-size: 1.7em; margin: 50px; font-family: 'Nanum Gothic', sans-serif; line-height: 1.5em}
+#content #new dd{line-height: 2em}
+
+#content #new figure:hover{box-shadow: 3px 3px 5px 5px #ccc}

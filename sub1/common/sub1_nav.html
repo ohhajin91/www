@@ -1,0 +1,58 @@
+<script>
+     window.onload=function(){
+
+        let num = '<?=$_GET['num_uni']?>';
+
+        let nav1= document.getElementById('nav1'); 
+
+        let nav2= document.getElementById('nav2');
+
+        let nav3= document.getElementById('nav3');
+
+        let nav4= document.getElementById('nav4');
+
+    
+
+          if(num==1){
+
+              nav1.className='current';
+
+          }else if(num==2){
+
+              nav2.className='current';
+
+          }else if(num==3){
+
+              nav3.className='current';
+
+          }else if(num==4){
+
+              nav4.className='current';
+
+          }
+
+}
+
+</script>
+      
+
+  <!-- 메인비주얼 -->
+       <div class="visual">
+           <img src="../sub1/common/images/sub1_visual.jpg" alt="">   
+       </div>
+   
+    <!-- 서브네비영역 -->
+    <div class="subnav_box">
+        <h3>기관소개</h3>
+        <p>유니세프는 차별없는 구호의 정신으로 일합니다.</p>
+        
+        <div class="subnav">
+            <ul>
+                <li><a id="nav1" href="sub1_1.html">설립이념</a></li>
+                <li><a id="nav2" href="sub1_2.html">유니세프한국위원회</a></li>
+                <li><a id="nav3" href="sub1_3.html">브랜드</a></li>
+                <li><a id="nav4" href="sub1_4.html">오시는 길</a></li>
+            </ul>
+            
+        </div>
+    </div>

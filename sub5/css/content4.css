@@ -1,0 +1,30 @@
+#content{width: 1200px; margin: 0 auto; overflow: hidden}
+/*본문탭*/
+#content .content_area{position: relative}
+#content .content_area .qa_btn{display: block; font-size: 1.625em; font-family: 'Roboto', sans-serif; position: absolute; top: -200px}
+#content .content_area h3:nth-of-type(1) .qa_btn{left: 300px}
+#content .content_area h3:nth-of-type(2) .qa_btn{right: 300px}
+#content .content_area .brand{display: none;margin-top: 150px}
+#content .content_area .qa_btn:hover::after{content: ''; width: 150px; height: 2px; position: absolute; background: #00adef; right: 10px; bottom: -16px}
+#content .content_area .on{color: #00adef}
+
+/*본문*/
+#content .content_area .qna{display: block; font-size: 1.2em; text-align: right; margin-bottom: 15px}
+#content .content_area .qna i{color: #00adef; margin-right: 5px; transition: all .5s; transform: rotateY(0)}
+#content .content_area .qna:hover i{transform: rotateY(560deg)}
+
+#content .tabs{position: relative}
+#content .tabs .tab{display: block; width: 25%;height: 50px; position: absolute;font-size: 1.2em; text-align: center; padding: 13px 0; border: 1px solid #ccc; box-sizing: border-box; color: #666; top: 0;font-family: 'Roboto', sans-serif}
+#content .tabs .tab1{left: 0}
+#content .tabs .tab2{left: 25%}
+#content .tabs .tab3{left: 50%}
+#content .tabs .tab4{left: 75%}
+#content .qa .contlist{overflow: hidden; position: relative; left: 100px;top: 150px;width: 1000px; height: 700px; display: none}
+#content .qa li{line-height: 2em;text-align: justify}
+#content .qa li:last-of-type{border-bottom: 1px solid #ddd}
+#content .question{margin:0;border-top:1px solid #ddd}  
+#content .question .trigger{display:block;padding:10px 15px;color:#333;text-align:left;text-decoration:none; position: relative} 
+#content .question .trigger span{font-size: 1.2em; color: #00adef; display: block;position: absolute;right: 100px;top:15px}
+#content .hide .question .trigger{font-weight:normal;background:none}  
+#content .question .trigger:hover,#contentq .question .trigger:active, #content .faq .question .trigger:focus{color:#000; background: #ddd}  
+#content .answer{margin:0;padding:30px;line-height:2em;display: none; border-top: 1px dashed #ddd} 

@@ -1,0 +1,21 @@
+#content {width: 1200px; margin: 0 auto; overflow: hidden}
+
+/*본문*/
+#content .content_area h3{font-family: 'Roboto', sans-serif; font-size: 2.5em; text-align: center; margin-bottom: 50px}
+#content .content_area img{margin-bottom: 50px; border-radius: 15px}
+#content .content_area p{font-size: 1.25em; line-height: 2em; margin-bottom: 30px}
+#content .content_area figcaption>p:last-of-type{margin-bottom: 150px}
+
+#content .content_area h4{font-size: 1.875em; font-family: 'Nanum Gothic', sans-serif; margin: 50px;position: relative}
+#content .content_area h4::before{content: ''; width: 10px; height: 10px; border: 2px solid #00adef; border-radius: 50%; position: absolute; left: -25px; top: 10px}
+#content .content_area div{margin-bottom: 150px}
+#content .content_area video{width: 100%}
+#content .content_area div p{padding: 30px; font-size: 1.25em; line-height: 2em}
+#content .content_area div span{color: #00adef; font-weight: bold}
+
+#content .content_area table{border-collapse: collapse; width: 1200px; margin: 150px 0}
+#content .content_area caption{font-size:2.5em; font-family:'Nanum Gothic', sans-serif; text-align: center; margin-bottom: 50px; position: relative}
+#content .content_area caption::before{content: ''; width: 10px; height: 10px; border: 2px solid #00adef; border-radius: 50%; position: absolute; left: 30%;bottom: 15px}
+#content .content_area th,#content .content_area td{border-bottom: 1px dashed #ccc; padding: 30px 10px;text-align: center}
+#content .content_area th{font-size: 1.375em; font-family:'Nanum Gothic', sans-serif }
+#content .content_area td{font-size: 1.25em}

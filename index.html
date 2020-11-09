@@ -1,0 +1,304 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name='keywords' content='유니세프, 후원, 아동, 한국위원회, unicef'> 
+    <meta name='description' content='유니세프 한국위원회 사이트, 어린이가 살기좋은 세상은 모두가 살기좋은 세상입니다.'> 
+    <title>unicefkorea</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    
+    <script src="mainjs/mainpopup.js"></script>
+    <script src="common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]--> 
+</head>
+<body>
+
+  <? include "common/main_head.html" ?>
+
+    <div class="visual">
+           <div class="gallery">
+            <ul>
+                <li><a href="javascript:void(0);"></a><img src="images/main_1.jpg" alt=""></li>
+                <li><a href="javascript:void(0);"></a><img src="images/main_2.jpg" alt=""></li>
+                <li><a href="javascript:void(0);"></a><img src="images/main_3.jpg" alt=""></li>
+                <li><a href="javascript:void(0);"></a><img src="images/main_4.jpg" alt=""></li>
+            </ul>
+            </div>
+       
+        <ul class="visual_text">
+            <li><span>HOPEFUL</span><br>유니세프는 희망적입니다.</li>
+            <li><span>COMPASSIONATE</span><br>유니세프는 따뜻합니다.</li>
+            <li><span>COLLABORATIVE</span><br>유니세프는 협력합니다.</li>
+            <li><span>INFLUENTIAL</span><br>유니세프는 영향력이 있습니다.</li>
+        </ul>
+       
+        <div class="dock">
+                <span class="ps"></span>
+                <span class="mbutton btn1"></span>
+                <span class="mbutton btn2"></span>
+                <span class="mbutton btn3"></span>
+                <span class="mbutton btn4"></span>     
+         </div>
+    </div>
+    
+    <article id="content">
+      
+       <h2 class="hidden">본문컨텐츠영역</h2>
+       
+        <div class="content_inner">
+         <div class="about">
+            <h3>ABOUT UNICEF</h3>    
+            <p class="motto">유니세프는 차별없는 구호의 정신으로 일합니다.</p>
+            
+            <div class="company">
+               <figure>
+                   <div class="opa_box"></div>
+                   <img src="images/bi.jpg" alt="">
+                   <figcaption>
+                       <h4>Brand Identity</h4>
+                       <p>Mission Vision Values Action 네가지요소로 구성되어 있습니다.</p>
+                        <a href="sub1/sub1_3.html">View more<i class="fas fa-arrow-right"></i></a>
+                   </figcaption>
+               </figure>
+         
+               <figure>
+                  <div class="opa_box"></div>
+                   <img src="images/unicef_of_korea.jpg" alt="">
+                   <figcaption>
+                       <h4>Unicef of Korea</h4>
+                       <p>수혜국에서 도움을 주는 나라로 한국의 4STEPS을 알아보세요.</p>
+                        <a href="sub1/sub1_2.html">View more<i class="fas fa-arrow-right"></i></a>
+                   </figcaption>
+               </figure>
+           
+               <figure>
+                  <div class="opa_box"></div>
+                   <img src="images/ideoligy.jpg" alt="">
+                   <figcaption>
+                       <h4>Ideology</h4>
+                       <p>어린이가 살기좋은 세상은 모두가 살기 좋은 세상입니다.</p>
+                        <a href="sub1/sub1_1.html">View more<i class="fas fa-arrow-right"></i></a>
+                   </figcaption>
+               </figure>
+           </div>
+         </div>
+       </div>
+       
+      
+       
+       
+     <div class="content_inner"> 
+        <div class="work">
+            <h3>UNICEF's WORK</h3>
+            <p class="motto">어린이가 살기좋은 세상은 모두가 살기좋은 세상입니다.</p>
+            <ul>
+                <li>
+                    <a href="sub2/sub2_1.html?a=1">health</a>
+                    <span>HEALTH</span>
+                </li>
+                <li>
+                    <a href="sub2/sub2_1.html?a=4">hygiene</a>
+                     <span>HYGIENE</span>
+                </li>
+                <li>
+                    <a href="sub2/sub2_1.html?a=2">education</a>
+                     <span>EDUCATION</span>
+                </li>
+                <li>
+                    <a href="sub2/sub2_1.html?a=3">protection</a>
+                     <span>PROTECTION</span>
+                </li>
+                <li>
+                    <a href="sub2/sub2_1.html?a=5">inclusion</a>
+                     <span>INCLUSION</span>
+                </li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="video">
+            <h3 class="hidden">SUPPORTVIDEO</h3>
+            <div class="opa_box"></div>
+            <video controls="controls">
+               <source src="images/movie.mp4" type="video/mp4">  
+            </video>
+                <p>BECOME <br> UNICEF <br> TEAM</p>
+                <div>
+                  <a href="#none" class='more'>유니세프팀 되기 <span><i class="fas fa-angle-double-right"></i></span></a>
+                </div>   
+                 <!--mail-->
+            <div class="modal modal1 email">
+               <h5>유니세프팀 되기</h5>
+               <p>후원에 필요한 자료를 메일로 보내드립니다.</p>
+               <a href="#none" class='close'><i class="far fa-times-circle"></i></a>
+                <form name="sentMessage" id="contactForm" novalidate>
+                   <ul>
+                    <li>
+                        <dl>
+                            <dt>
+                                <label>Name</label>
+                            </dt>
+                            <dd>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="row control-group">
+                        <dl class="form-group col-xs-12 floating-label-form-group controls">
+                            <dt>
+                                <label>Email Address</label>
+                            </dt>
+                            <dd>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="row control-group">
+                        <dl class="form-group col-xs-12 floating-label-form-group controls">
+                            <dt>
+                                <label>Phone Number</label>
+                            </dt>
+                            <dd>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="row control-group">
+                        <dl class="form-group col-xs-12 floating-label-form-group controls">
+                            <dt>
+                               <label>Message</label> 
+                            </dt>
+                            <dd>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            </dd>
+                        </dl>
+                    </li>
+                    </ul>
+                    <div id="success"></div>
+                    <div class="form-group col-xs-12 send">
+                        <button type="submit" class="btn btn-success btn-lg">Send</button>
+                    </div>
+                </form>
+            </div>
+        <div class="modal_box"> </div>       
+        </div>
+        
+     <? include "./lib/func2.php"; ?>   
+     <div class="content_inner"> 
+        <div class="news">
+          <h3>UNICEF NEWS</h3>
+           <!--뉴스 삽입-->
+           <? latest_article("news", 4, 10, 45); ?>
+            <a href="news/list.php" class="news_more">+ View more</a>
+        </div>
+    </div>
+
+      
+    <div class="story">  
+        <h3 class="hidden">STORY</h3>    
+           <div></div>
+            <dl>
+                <dt>당신에게 두 손이 있는 이유는 한 손은 스스로를 돕기 위해 <br> 다른 한 손은 타인을 돕기 위해서 입니다.</dt>
+                <dd>오드리햅번의 이야기를 들어보세요 <a href="sub5/sub5_3.html">+ view more</a></dd>
+            </dl>                
+            <ul>
+                <li><a href="https://www.instagram.com/unicef_kr">insta</a></li>
+                <li><a href="https://twitter.com/unicefkorea">twitter</a></li>
+                <li><a href="https://www.facebook.com/unicefkr">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/unicefMedia">youtube</a></li>
+            </ul>
+     </div>
+    
+    <div class="content_inner">       
+     
+           <h3>SAFETY GOODS</h3>
+           <p class="motto">모든 어린이가 건강하게 꿈을 키워나갈 수 있도록 특별한 선물을 전해보세요!</p>
+             
+                  <a href="javascript:void(0);"><i class="far fa-arrow-alt-circle-left m1 button"></i></a>
+                  <a href="javascript:void(0);"><i class="far fa-arrow-alt-circle-right m2 button"></i></a>
+             
+              <div class="goods">
+                  <div class="safety">
+                       <ul>
+                           <li><img src="images/goods_1.jpg" alt="건강쑥쑥팩"><span>건강쑥쑥팩</span></li>
+                           <li><img src="images/goods_2.jpg" alt="슈퍼히어로팩"><span>슈퍼히어로팩</span></li>
+                           <li><img src="images/goods_3.jpg" alt="말라리아치료제"><span>말라리아치료제</span></li>
+                           <li><img src="images/goods_4.jpg" alt="의료진보호키트"><span>의료진보호키트</span></li>
+                           <li><img src="images/goods_5.jpg" alt="긴급구호팩"><span>긴급구호팩</span></li>
+                           <li><img src="images/goods_6.jpg" alt="출산의료키트"><span>출산의료키트</span></li>
+                           <li><img src="images/goods_7.jpg" alt="아동발달도구"><span>아동발달도구</span></li>
+                           <li><img src="images/goods_8.jpg" alt="구호텐트"><span>구호텐트</span></li>
+                       </ul>
+                   </div>
+                </div>
+             
+    </div>
+    
+     <div class="partners"> 
+       <h3 class="hidden">PARTNER</h3>
+       <ul>
+           <li><a href="javascript:void(0);"><img src="images/korea.jpg" alt="고려대 의료원 로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/asiana.jpg" alt="아시아나로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/koreanmedi.jpg" alt="한국한의사협회로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/wwcc.jpg" alt="사랑의본부 로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/woori.jpg" alt="우리은행 로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/sm.jpg" alt="sm엔터테인먼트 로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/samsung.jpg" alt="삼성물산 로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/parkland.jpg" alt="파크랜드 로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/hit.jpg" alt="빅히트엔터테인먼트 로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/spo.jpg" alt="검찰청 로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/hyundai.jpg" alt="현대 로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/forginer.jpg" alt="외교부 로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/costoms.jpg" alt="관세청 로고"></a></li>
+           <li><a href="javascript:void(0);"><img src="images/louis.jpg" alt="루이비통 로고"></a></li>
+           
+       </ul>
+    </div>
+     
+</article>
+
+ <? include "common/main_foot.html" ?>  
+ <script src="mainjs/main_script.js"></script> 
+
+<!--추가 스크립트 영역-->
+ <script src="mainjs/visual.js"></script> 
+ <script src="common/js/bootstrap.min.js"></script>
+ <script src="common/js/contact_me.js"></script> 
+ <script src="common/js/jqBootstrapValidation.js"></script>
+<!--팝업영역-->
+
+<div id="showimage" style="z-index:99;position:absolute;width:322px;left:100px;top:250px;">
+  <script>
+    function closeWin(){
+       var chk = document.getElementById('Notice')
+       if ( chk.checked ) {
+             setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+        }
+    }
+   if ( getCookie( "Notice" ) == "done" ) {
+       hidebox();
+   }
+ </script>
+    <div>
+          <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+    </div>
+     <div style="font-size:12px;text-align:center;color:#666;">
+       <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+     <a href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+  </div>
+</div>    
+</body>
+</html>

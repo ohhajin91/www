@@ -1,0 +1,178 @@
+<div id="skipNav">
+ <a href="#content">본문 바로가기</a>
+ <a href="#gnb">글로벌 네비게이션 바로가기</a>
+</div>
+
+
+<div id="wrap">
+    <header id="headerArea" class="basic">
+       <div class="header_inner">
+            <h1 class="logo"><a href="index.html">유니세프로고</a></h1>
+            <div class="top_menu">
+               <ul>
+                  <?
+                    if(!$userid) 
+	                {
+                 ?>
+                   <li><a href="login/login_form.php"><i class="fas fa-sign-in-alt"></i> 로그인</a></li>
+                   <li><a href="member/join.html"><i class="far fa-user-circle"></i> 회원가입</a></li>
+                   
+                   <?
+	                }
+                    else
+	                {
+                ?>
+                  <li><a href="login/logout.php"><i class="fas fa-sign-out-alt"></i> 로그아웃</a></li>
+                 <li><a href="login/member_form_modify.php"><i class="fas fa-user-cog"></i> 정보수정</a></li>
+                   <?
+                }
+            ?>        
+             </ul>  
+               <ul>
+                   <li><a href="index.html" class="home"><i class="fas fa-home"></i></a><span>첫화면으로</span></li>
+                   <li class="site_map"><a href="#none"><i class="fas fa-map-marked-alt"></i><span>사이트맵</span></a></li>
+               </ul>
+            </div>
+              <nav id="gnb">
+                <h2 class="hidden">글로벌네비게이션영역</h2>
+                <ul class="dropdownmenu">
+              	<li class="m1 menu">
+                	<h3><a class="depth1" href="sub1/sub1_1.html">기관소개</a></h3>
+                    <ul>
+                        <li><a href="sub1/sub1_1.html">설립이념</a></li>
+                        <li><a href="sub1/sub1_2.html">유니세프 한국위원회</a></li>
+                        <li><a href="sub1/sub1_3.html">브랜드</a></li>
+                        <li><a href="sub1/sub1_4.html">오시는 길</a></li>
+                    </ul>
+                </li>
+                <li class="m2 menu">
+                	<h3><a class="depth1" href="sub2/sub2_1.html">기관활동</a></h3>
+                	<ul>
+                    	<li><a href="sub2/sub2_1.html">유니세프 사업</a></li>
+                        <li><a href="sub2/sub2_2.html">한국위원회 사업</a></li>
+                        <li><a href="sub2/sub2_3.html">유니세프와 사람들</a></li>
+                    </ul>
+                </li>
+                <li class="m3 menu">
+                	<h3><a class="depth1" href="sub3/sub3_1.html">아동권리</a></h3>
+                	<ul>
+                    	<li><a href="sub3/sub3_1.html">아동권리 협약</a></li>
+                        <li><a href="sub3/sub3_2.html">아동권리와 책임</a></li>
+                        <li><a href="sub3/sub3_3.html">한국위원회와 아동권리</a></li>
+                        <li><a href="sub3/sub3_4.html">아동친화도시</a></li>
+                    </ul>
+                </li>
+                <li class="m4 menu">
+                	<h3><a class="depth1" href="sub4/sub4_1.html">후원참여</a></h3>
+                	<ul>
+                    	<li><a href="sub4/sub4_1.html">후원안내</a></li>
+                        <li><a href="sub4/sub4_2.html">착한상품</a></li>
+                        <li><a href="sub4/sub4_3.html">자원봉사</a></li>
+                        <li><a href="download/list.php">자료실</a></li>
+                    </ul>
+                </li>
+                <li class="m5 menu">
+                	<h3><a class="depth1" href="sub5/sub5_1.html">기관소식</a></h3>
+                	<ul>
+                    	<li><a href="news/list.php">News</a></li>
+                        <li><a href="greet/list.php">공지사항</a></li>
+                        <li><a href="sub5/sub5_3.html">Story</a></li>
+                        <li><a href="sub5/sub5_4.html">Q&amp;A</a></li>
+                    </ul>
+                </li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="map_wrap">
+       <div class="map_inner">
+           <img src="common/images/sitemaplogo.png" alt="">
+           <h4>SITE MAP</h4>
+           <ul>
+               <li>
+                   <dl>
+                       <dt>기관소개</dt>
+                       <dd>
+                           <a href="sub1/sub1_1.html">설립이념</a>
+                       </dd>
+                       <dd>
+                           <a href="sub1/sub1_2.html">유니세프 한국위원회</a>
+                       </dd>
+                       <dd>
+                           <a href="sub1/sub1_3.html">브랜드</a>
+                       </dd>
+                       <dd>
+                           <a href="sub1/sub1_4.html">오시는길</a>
+                       </dd>
+                   </dl>
+               </li>
+               <li>
+                   <dl>
+                       <dt>기관활동</dt>
+                       <dd>
+                           <a href="sub2/sub2_1.html">유니세프 사업</a>
+                       </dd>
+                       <dd>
+                           <a href="sub2/sub2_2.html">한국위원회 사업</a>
+                       </dd>
+                       <dd>
+                           <a href="sub2/sub2_3.html">유니세프와 사람들</a>
+                       </dd>
+                   </dl>
+               </li>
+               <li>
+                   <dl>
+                       <dt>아동권리</dt>
+                       <dd>
+                           <a href="sub3/sub3_1.html">아동권리 협약</a>
+                       </dd>
+                       <dd>
+                           <a href="sub3/sub3_2.html">아동권리와 책임</a>
+                       </dd>
+                       <dd>
+                           <a href="sub3/sub3_3.html">한국위원회와 아동권리</a>
+                       </dd>
+                       <dd>
+                           <a href="sub3/sub3_4.html">아동친화도시</a>
+                       </dd>
+                   </dl>
+               </li>
+               <li>
+                   <dl>
+                       <dt>후원참여</dt>
+                       <dd>
+                           <a href="sub4/sub4_1.html">후원안내</a>
+                       </dd>
+                       <dd>
+                           <a href="sub4/sub4_2.html">착한상품</a>
+                       </dd>
+                       <dd>
+                           <a href="sub4/sub4_3.html">자원봉사</a>
+                       </dd>
+                       <dd>
+                           <a href="download/list.php">자료실</a>
+                       </dd>
+                   </dl>
+               </li>
+               <li>
+                   <dl>
+                       <dt>기관소식</dt>
+                       <dd>
+                           <a href="news/list.php">News</a>
+                       </dd>
+                       <dd>
+                           <a href="greet/list.php">공지사항</a>
+                       </dd>
+                       <dd>
+                           <a href="sub5/sub5_3.html">Story</a>
+                       </dd>
+                       <dd>
+                           <a href="sub5/sub5_4.html">Q&amp;A</a>
+                       </dd>
+                   </dl>
+               </li>
+           </ul>
+           <a href="#none" class="close_btn">닫기</a>
+       </div>
+   </div>
+     

@@ -1,0 +1,34 @@
+#content {width: 1200px; margin: 0 auto; overflow: hidden}
+
+
+/*본문*/
+#content .content_area h3{font-family: 'Roboto', sans-serif; font-size: 2.5em; text-align: center; margin-bottom: 50px}
+#content .content_area figure{margin: 100px}
+#content .content_area img{position: relative}
+#content .content_area figcaption::after{content: url(../images/content2/hands.png); width: 50px; height: 50px;position: absolute; left: 70px; top: -30px}
+#content .content_area figcaption{position: relative; left:450px; bottom: 150px;z-index: -1}
+
+#content .content_area ul{width: 600px; height: 250px; background: rgba(224, 230, 232,.5)}
+#content .content_area li{position: relative;font-size: 1.25em; left: 100px; top: 50px; margin-bottom: 20px}
+
+#content .child div:first-of-type{overflow: hidden;height: 500px; margin-bottom: 150px}
+#content .child dl{float: left; width: 234px;height: 218px; position: relative; background: url(../images/content2/circle.jpg);}
+#content .child dl:last-child{margin-right: 0}
+
+#content .child dt{font-size: 1.375em; font-family: 'Nanum Gothic', sans-serif; text-align: center; font-weight: 700; color: #00adef; position: absolute}
+#content .child dl:nth-of-type(1)>dt{left: 50%; top: 100px; margin-left: -34px}
+#content .child dl:nth-of-type(2)>dt{left: 50%; top: 100px; margin-left: -75px}
+#content .child dl:nth-of-type(3)>dt{left: 50%; top: 100px; margin-left: -104px}
+#content .child dl:nth-of-type(4)>dt{left: 50%; top: 100px; margin-left: -28px}
+#content .child dl:nth-of-type(5)>dt{left: 50%; top: 100px; margin-left: -28px}
+
+
+#content .child dd{font-size: 1em;line-height: 1.5em;
+    position: absolute;top: 250px;margin: 15px;padding: 15px;height: 130px;text-align: justify;background: #f3f3f3;border-radius: 10px;}
+#content .child dd::after{content: ''; width: 1px; height: 50px; background: #ccc; position: absolute;right: -15px; bottom: 60px}
+#content .child dl:last-of-type>dd::after{content: ''; width: 0; height: 0}
+#content .child div:last-of-type{overflow: hidden;background: none; position: relative; left: 50%;top: 50px; margin: 0 0 150px -370px}
+
+#content .child div:last-of-type a{width: 270px;text-align: center;float:  left; margin: 0 50px; border: 1px solid #ccc; padding: 15px; border-radius: 10px; transition: all .5s; font-family:'Nanum Gothic', sans-serif; font-size: 1.25em; color: #00adef }
+#content .child div:last-of-type a:hover{background: #00adef; color: #fff}
+

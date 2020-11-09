@@ -1,0 +1,54 @@
+#content .content_area{overflow: hidden; position: relative; margin-bottom: 30px}
+#content .content_area li{overflow: hidden; margin-bottom: 20px}
+#content .content_area span{display: block; width: 25%; float: left; position: relative; left: 8%; top: 30px}
+#content .content_area dl{width: 70%; float: right; margin: 0 2%; padding: 2%; box-sizing: border-box}
+#content .content_area dt{font-family: 'Nanum Gothic', sans-serif; font-size: 1.2em; margin-bottom: 10px}
+#content .content_area dd{line-height: 1.5em; text-align: justify}
+
+#content .content_area li:nth-of-type(1) span{display: block; background:url(../images/equality_320.png) no-repeat;
+ overflow: hidden; width: 48px; height: 48px; background-size:48px 48px }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+ #content .content_area li:nth-of-type(1) span{ background: url(../images/equality_640.png);
+     background-size: 48px 48px}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+ #content .content_area li:nth-of-type(1) span{ background: url(../images/equality_960.png);
+     background-size: 48px 48px}
+}
+
+#content .content_area li:nth-of-type(2) span{display: block; background:url(../images/development_320.png) no-repeat;
+ overflow: hidden; width: 48px; height: 48px; background-size:48px 48px }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+ #content .content_area li:nth-of-type(2) span{ background: url(../images/development_640.png);
+     background-size: 48px 48px}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+ #content .content_area li:nth-of-type(2) span{ background: url(../images/development_960.png);
+     background-size: 48px 48px}
+}
+
+#content .content_area li:nth-of-type(3) span{display: block; background:url(../images/cooperation_320.png) no-repeat;
+ overflow: hidden; width: 48px; height: 48px; background-size:48px 48px }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+ #content .content_area li:nth-of-type(3) span{ background: url(../images/cooperation_640.png);
+     background-size: 48px 48px}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+ #content .content_area li:nth-of-type(3) span{ background: url(../images/cooperation_960.png);
+     background-size: 48px 48px}
+}
+
+#content .content_area li:nth-of-type(4) span{display: block; background:url(../images/human_320.png) no-repeat;
+ overflow: hidden; width: 48px; height: 48px; background-size:48px 48px }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+ #content .content_area li:nth-of-type(4) span{ background: url(../images/human_640.png);
+     background-size: 48px 48px}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+ #content .content_area li:nth-of-type(4) span{ background: url(../images/human_960.png);
+     background-size: 48px 48px}
+}

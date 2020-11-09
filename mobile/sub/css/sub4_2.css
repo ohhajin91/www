@@ -1,0 +1,28 @@
+#content .tabs{overflow: hidden; margin: 3%}
+#content .tabs li{width: 25%; float: left; box-sizing: border-box}
+#content .tabs li:last-of-type{float: right}
+#content .tabs li .tab{display: block; width: 100%; padding: 10% 3%; box-sizing: border-box; text-align: center;font-family: 'Nanum Gothic', sans-serif; font-weight: bold; color: #666}
+
+#content .list{margin: 3%}
+#content .list h4{font-size: 1.5em;font-family: 'Nanum Gothic', sans-serif; margin: 3%; text-align: center}
+#content .list p{line-height: 1.5em; text-align: justify; margin: 3%}
+#content .list h5{font-size: 1.25em; font-family: 'Nanum Gothic', sans-serif; margin: 5% 10%}
+#content .list>img{width: 96%; margin: 2%; border-radius: 3px}
+
+#content .list:nth-of-type(1) dl,#content .list:nth-of-type(2) dl{margin: 8%}
+#content .list:nth-of-type(1) dt,#content .list:nth-of-type(2) dt{margin: 2%; font-family: 'Nanum Gothic', sans-serif; position: relative}
+#content .list:nth-of-type(1) dt::before, #content .list:nth-of-type(2) dt::before, #content .list:nth-of-type(4) ul li::before{content: ''; width: 5px; height: 5px; background: #00adef;border-radius: 50%; position: absolute; left: -10px; bottom: 5px}
+#content .list:nth-of-type(1) dd,#content .list:nth-of-type(2) dd{margin: 5%; line-height: 1.5em}
+
+#content .list:nth-of-type(3) ul:nth-of-type(1){overflow: hidden}
+#content .list:nth-of-type(3) ul:nth-of-type(1) li{background: #f2f2f2; width: 40%; margin: 0 5%; padding: 7%; box-sizing: border-box; border-radius: 8px; text-align: center; line-height: 2em}
+#content .list:nth-of-type(3) ul:nth-of-type(1) li:nth-of-type(1){float: left}
+#content .list:nth-of-type(3) ul:nth-of-type(1) li:nth-of-type(1){float: right}
+#content .list:nth-of-type(3) ul:nth-of-type(2) li{margin: 3% 12%; line-height: 1.5em; position: relative}
+
+#content .list:nth-of-type(4) figure{overflow: hidden; margin-bottom: 50px}
+#content .list:nth-of-type(4) figure>img{width: 40%; float: left}
+#content .list:nth-of-type(4) figcaption{width: 60%; float: right; padding: 2%; box-sizing: border-box}
+#content .list:nth-of-type(4) ul li{margin: 5% 12%; position: relative}
+
+#content .list:nth-of-type(3) ul:nth-of-type(2) li::before{content: ''; width: 5px; height: 5px; background: #00adef;border-radius: 50%; position: absolute; left: -10px; top: 10px}

@@ -1,0 +1,29 @@
+
+/*scroll*/
+#content .content_area .mission div{position: relative; right:-10000px; top:0; opacity: 0;transition: all .8s}
+
+#content .content_area .mission .move{right:0; opacity: 1}
+
+/*본문*/
+#content .content_area{}
+#content .content_area .mission{overflow: hidden; clear: both; margin-bottom: 150px}
+#content .content_area h3{font-family: 'Roboto', sans-serif; font-size: 2.5em; text-align: justify; float: left; margin: 50px 30px}
+#content .content_area .mission>p{font-size: 1.1em; position: relative; top: 65px; left: 30px}
+
+#content .content_area .mission div:nth-of-type(1){background: url(../images/content1/sub_bottom.jpg); background-size: cover; height: 270px; margin-bottom: 150px; overflow: hidden; clear: both}
+#content .content_area div:nth-of-type(1) dl{color: #fff;float: left; margin: 0 auto; text-align: center;font-size: 1.25em;position: relative; left: 0px; top: 100px; padding: 0 90px}
+#content .content_area div:nth-of-type(1) dt{margin-bottom: 30px}
+#content .content_area div:nth-of-type(1) dd{font-size: 1.8em}
+#content .content_area div:nth-of-type(1) dl::before{content: ''; display: block; width: 1px; height: 50px; background: #ccc; position: absolute; left: 0; top: 15px  }
+#content .content_area div:nth-of-type(1) dl:first-of-type::before{content: '';width: 0; height: 0}
+
+#content .content_area div:nth-of-type(2) figure{overflow: hidden; clear: both}
+#content .content_area div:nth-of-type(2) figure img{display: block; width: 70px; height: 70px; float: left; margin: 15px 100px 100px 75px}
+#content .content_area div:nth-of-type(2) figure h4{font-size: 1.625em; font-family: 'Nanum Gothic', sans-serif;margin-bottom: 20px}
+#content .content_area div:nth-of-type(2) figure p{font-size: 1.2em; line-height: 2em}
+#content .content_area h3:last-of-type{float: none}
+#content .content_area div:nth-of-type(3){margin-bottom: 100px}
+#content .content_area div:nth-of-type(3) span{display: block; text-indent: -9999px; background: url(../images/content1/unicef.jpg) no-repeat; width: 700px; height: 120px; margin:0 0 50px 250px}
+#content .content_area div:nth-of-type(4) span{display: block; text-indent: -9999px; background: url(../images/content1/unicef_korea.jpg) no-repeat; width: 700px; height: 120px; margin:0 0 50px 250px}
+#content .content_area h5{font-size: 1.5em; font-family: 'Nanum Gothic', sans-serif; margin: 30px auto; text-align: center} 
+#content .content_area div:nth-of-type(3) p,#content .content_area div:nth-of-type(4) p{line-height: 2em;text-align: justify; margin-bottom: 20px}

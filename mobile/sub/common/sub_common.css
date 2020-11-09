@@ -1,0 +1,23 @@
+/* CSS Document */
+/*visual 영역*/
+.main{position: relative; margin-bottom: 50px;overflow: hidden;width: 100%; left: 0; top: 0}
+.main img{width:100%}
+
+.subnav_box{margin: 0 auto; position: relative}
+.subnav_box h3{font-size: 1.5em; font-family: 'Nanum Gothic', sans-serif; color: #fff; position: absolute; left: 50%; top: -100px; margin-left: -40px}
+
+.subnav_box .subnav{position: absolute; width: 100%; background: #fff;z-index: 1; left: 0; top: -50px}
+.subnav_box .subnav ul{overflow: hidden; margin: 0 auto; border: 1px solid #ccc; text-align: center}
+.subnav_box .subnav ul li{width: 33.33%; float: left; text-align: center; position: relative}
+.subnav_box .subnav ul li:last-of-type{float: right}
+.subnav_box .subnav ul li a{display: block; color: #333; transition: all .5s; font-family: 'Nanum Gothic', sans-serif; box-sizing: border-box; padding: 8% 5%; font-size: 1.1em}
+.subnav_box .subnav ul li .current{color: #00adef; font-weight: 700; letter-spacing: -1px}
+.subnav_box .subnav ul li::after{content: '|'; position: absolute; right: 0; top: 30%; color: #ccc}
+.subnav_box .subnav ul li:last-of-type::after{content: ''}
+
+#content {width: 100%; overflow: hidden; position: relative}
+#content .content_area{ overflow: hidden; position: relative}
+
+#content>h2{text-align: center; font-size: 1.9em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; position: relative; margin: 50px 0; top: 15px}
+#content>p{text-align: center; font-size: 1.25em; font-family: 'Nanum Myeongjo', serif; position: relative; top: 250px; color: #057ca9}
+

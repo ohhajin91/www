@@ -1,0 +1,99 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>유니세프</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="sub/common/sub_common.css">
+<link rel="stylesheet" href="sub/css/sub3_3.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html" ?> 
+    <div class="main">
+        <img src="sub/common/sub3_visual.jpg" alt=""> 
+    </div>
+    <!-- 서브네비영역 -->
+    <div class="subnav_box">
+        <h3>참여후원</h3>
+        
+        <div class="subnav">
+            <ul>
+                <li><a href="sub3_1.html">후원안내</a></li>
+                <li><a href="sub3_2.html">착한선물</a></li>
+                <li><a class="current" href="sub3_3.html">아우인형</a></li>
+            </ul>
+        </div>
+    </div> 
+         <article id="content">
+             <h2>아우인형</h2>
+             <section class="content_area">
+                 <h3>아우인형이란?</h3>
+                 <p>'내 동생'이라는 뜻을 담고 있는 아우인형은 누구나 만들 수 있는 헝겊인형으로 어린이의 소중한 생명을 구하는 유니세프 캠페인입니다.</p>
+                 <ul>
+                     <li>예방접종을 받지 못해 고통받는 어린이 1,870만 명</li>
+                     <li>다섯 살이 되기 전에 세상을 뜨는 어린이 590만 명</li>
+                 </ul>
+                <p>아우인형을 만들고 입양하면서 기부해주시는 기부금은 유니세프 어린이 예방접종 사업에 쓰입니다.</p>
+                <h4>아우인형을 함께 하려면?</h4>
+                 <ul>
+                     <li>3만 원 이상 기부시, 1개 아우인형을 만들고 입양하실 수 있습니다.</li>
+                     <li>#AwooForEveryChild는 유니세프한국위원회 건물에서 아우인형 제작 전문 강사와 함께 진행됩니다.</li>
+                     <li>원활한 운영을 위해 최소 15명 이상, 최대 40명까지 신청 가능합니다.</li>
+                     <li>#AwooForEveryChild는 매월 세번째 금요일에 진행됩니다. (신청은 1주일 전까지 가능하며, 신청 기업이 없을 시 진행하지 않을 수 있습니다)</li>
+                     <li>참여 신청 문의는 awoo@unicef.or.kr로 하실 수 있습니다.</li>
+                 </ul>
+                 <div class="gallery">
+                   <img id="big" src="sub/images/doll1.jpg" alt="">
+                    <ul class="btngroup">
+                        <li><a id="btn1" href="javascript:void(0);"><img src="sub/images/doll1.jpg" alt=""></a></li>
+                        <li><a id="btn2" href="javascript:void(0);"><img src="sub/images/doll2.jpg" alt=""></a></li>
+                        <li><a id="btn3" href="javascript:void(0);"><img src="sub/images/doll3.jpg" alt=""></a></li>
+                        <li><a id="btn4" href="javascript:void(0);"><img src="sub/images/doll4.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+                <h4>아우인형을 만들면?</h4>
+                    <ul>
+                        <li>예방접종 기금 조성을 통해 개발도상국 어린이의 생존권에 기여합니다.</li>
+                        <li>지구촌 시민의식을 제고하고 기업 내외 나눔 문화 확산에 기여합니다.</li>
+                        <li>집중력 및 창의력 증진, 사내 유대감 강화 등의 정서적 효과를 도모합니다.</li>
+                    </ul>
+             </section>
+         </article>   
+        
+<? include "foot.html" ?> 
+ <script src="sub/js/gallery.js"></script>
+</body>
+</html>

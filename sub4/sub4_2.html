@@ -1,0 +1,292 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>유니세프-착한상품</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]--> 
+</head>
+<body>
+  <? include "../common/sub_head.html" ?>
+   <? $_GET['num']=2;
+   include "common/sub4_nav.html"; ?>
+     <!-- 본문컨텐츠영역 -->                    
+    <article id="content">
+       <div class="content_inner">
+        <div class="title_area">
+            <div class="line_map">
+              <span>HOME </span>&gt;<span> 후원참여 </span>&gt; <strong>착한상품</strong>  
+            </div>
+            <h2>생명을 구하는 선물</h2>
+            <p>지구촌 어린이들의 생명을 살리는 구호물품!</p>
+        </div>
+     </div>
+        
+  <div class="content_area">
+        <section class="gift">
+         
+           <h3>Best 후원선물 <span>TOP3</span></h3>
+           <a href="javascript:void(0);">
+              <figure>
+               <img src="../sub4/images/content2/gift1.jpg" alt="">
+               <figcaption>
+                   <h4>슈퍼히어로팩</h4>
+                   <ul>
+                       <li>소아마비백신 200회 접종량</li>
+                       <li>홍역백신 60회 접종량</li>
+                       <li>살충 처리된 모기장 10개</li>
+                   </ul>
+               </figcaption>
+               </figure>
+               <figure>
+                   <img src="../sub4/images/content2/gift2.jpg" alt="">
+                   <figcaption>
+                       <h4>건강쑥쑥 어린이팩</h4>
+                       <ul>
+                           <li>영양실조치료식 150개</li>
+                           <li>영양실조치료우유 10캔</li>
+                           <li>복합미량영양소 600포</li>
+                       </ul>
+                   </figcaption>
+               </figure>
+               <figure>
+                   <img src="../sub4/images/content2/gift3.jpg" alt="">
+                   <figcaption>
+                       <h4>긴급구호팩</h4>
+                       <ul>
+                           <li>영양실조치료식 140개</li>
+                           <li>응급처치키트 1세트</li>
+                           <li>구강수분보충염 300포</li>
+                           <li>식수정화제 5,500정</li>
+                       </ul>
+                   </figcaption>
+               </figure>
+           </a>
+           
+               <h3>카테고리별 선물보기</h3>
+               
+               <div class="tabs">
+                  <h4><a href="javascript:void(0);" class="tab tab1">교육</a></h4>
+                       <ul class="contlist">
+                           <li>
+                                 <img src="images/content2/edu1.jpg" alt="">
+                                  <a href="javascript:void(0);">
+                                   <dl>
+                                       <dt>책가방</dt>
+                                       <dd>35,000원</dd>
+                                   </dl>
+                               </a></li>
+                           <li>
+                                  <img src="images/content2/edu2.jpg" alt="">
+                                  <a href="javascript:void(0);">
+                                   <dl>
+                                       <dt>학교상자</dt>
+                                       <dd>250,000원</dd>
+                                   </dl>
+                               </a></li>
+                           <li>
+                                  <img src="images/content2/edu3.jpg" alt="">
+                                  <a href="javascript:void(0);">
+                                   <dl>
+                                       <dt>아동발달도구</dt>
+                                       <dd>250,00원</dd>
+                                   </dl>
+                               </a></li>
+                       </ul>
+                   <h4><a href="javascript:void(0);" class="tab tab2">영양</a></h4>
+                   <ul class="contlist">
+                       <li>
+                              <img src="images/content2/food1.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>영양실조치료식</dt>
+                                   <dd>30,000원</dd>
+                               </dl>
+                           </a></li>
+                       <li>
+                              <img src="images/content2/food2.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>튼튼까까세트</dt>
+                                   <dd>5,500원</dd>
+                               </dl>
+                           </a></li>
+                       <li>
+                              <img src="images/content2/food3.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>긴급구호 비상식량</dt>
+                                   <dd>66,000원</dd>
+                               </dl>
+                           </a></li>
+                   </ul>
+               <h4><a href="javascript:void(0);" class="tab tab3">예방접종</a></h4>
+                   <ul class="contlist">
+                       <li>
+                              <img src="images/content2/hos1.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>홍역 예방백신</dt>
+                                   <dd>30,000원</dd>
+                               </dl>
+                           </a></li>
+                       <li>
+                              <img src="images/content2/hos2.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>소아마비 예방백신</dt>
+                                   <dd>20,000원</dd>
+                               </dl>
+                           </a></li>
+                       <li>
+                              <img src="images/content2/hos3.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>파상풍 예방백신</dt>
+                                   <dd>40,000원</dd>
+                               </dl>
+                           </a></li>
+                   </ul>
+               <h4><a href="javascript:void(0);" class="tab tab4">말라리아</a></h4>
+                   <ul class="contlist">
+                       <li>
+                              <img src="images/content2/bee1.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>살충 모기장</dt>
+                                   <dd>15,000원</dd>
+                               </dl>
+                           </a></li>
+                      <li>
+                              <img src="images/content2/bee2.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>말라리아 치료제</dt>
+                                   <dd>30,000원</dd>
+                               </dl>
+                           </a></li>
+                   </ul>
+               <h4><a href="javascript:void(0);" class="tab tab5">건강</a></h4>
+                   <ul class="contlist">
+                       <li>
+                              <img src="images/content2/medi1.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>의료진 보호키트</dt>
+                                   <dd>50,000원</dd>
+                               </dl>
+                           </a></li>
+                       <li>
+                              <img src="images/content2/medi2.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>구충제</dt>
+                                   <dd>15,000원</dd>
+                               </dl>
+                           </a></li>
+                       <li>
+                              <img src="images/content2/medi3.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>출산의료키트</dt>
+                                   <dd>2,170,000</dd>
+                               </dl>
+                           </a></li>
+                   </ul>
+               <h4><a href="javascript:void(0);" class="tab tab6">깨끗한 식수</a></h4>
+                   <ul class="contlist">
+                       <li>
+                              <img src="images/content2/wat1.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>식수정화제</dt>
+                                   <dd>30,000원</dd>
+                               </dl>
+                           </a></li>
+                       <li>
+                            <img src="images/content2/wat2.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>식수위생키트</dt>
+                                   <dd>70,000원</dd>
+                               </dl>
+                           </a></li>
+                       <li>
+                            <img src="images/content2/wat3.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>비누</dt>
+                                   <dd>15,000원</dd>
+                               </dl>
+                           </a></li>
+                   </ul>
+                <h4><a href="javascript:void(0);" class="tab tab7">보호시설</a></h4>
+                   <ul class="contlist">
+                       <li>
+                            <img src="images/content2/hou1.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>담요</dt>
+                                   <dd>30,000원</dd>
+                               </dl>
+                           </a></li>
+                       <li>
+                              <img src="images/content2/hou2.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>구호텐트</dt>
+                                   <dd>1,700,000원</dd>
+                               </dl>
+                           </a></li>
+                       <li>
+                              <img src="images/content2/hou3.jpg" alt="">
+                              <a href="javascript:void(0);">
+                               <dl>
+                                   <dt>방수천</dt>
+                                   <dd>22,000원</dd>
+                               </dl>
+                           </a></li>
+                   </ul>
+               </div>
+               
+               <h5>구호물품은 이렇게 전달됩니다.</h5>
+               <ol>
+                   <li>
+                   <img src="images/content2/choice.png" alt="">
+                   <span>선택</span>
+                   </li>
+                   <li>
+                   <img src="images/content2/accept.png" alt="">
+                   <span>접수</span>
+                   </li>
+                   <li>
+                   <img src="images/content2/request.png" alt="">
+                   <span>요청</span>
+                   </li>
+                   <li>
+                   <img src="images/content2/delivery.png" alt="">
+                   <span>전달</span></li>
+               </ol>
+      </section>
+    </div>
+    </article>
+      
+      <? include "../common/sub_foot.html" ?>  
+      
+</body>
+</html>

@@ -1,0 +1,230 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>유니세프</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="sub/common/sub_common.css">
+<link rel="stylesheet" href="sub/css/sub3_2.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html" ?> 
+    <div class="main">
+        <img src="sub/common/sub3_visual.jpg" alt=""> 
+    </div>
+    <!-- 서브네비영역 -->
+    <div class="subnav_box">
+        <h3>참여후원</h3>
+        
+        <div class="subnav">
+            <ul>
+                <li><a href="sub3_1.html">후원안내</a></li>
+                <li><a class="current" href="sub3_2.html">착한선물</a></li>
+                <li><a href="sub3_3.html">아우인형</a></li>
+            </ul>
+         </div>
+     </div> 
+         <article id="content">
+             <h2>착한선물</h2>
+             <section class="content_area">
+                 <h3 class="hidden">생명을 구하는 선물</h3>
+                 <p>모든 어린이가 건강하게 꿈을 키워나갈 수 있도록 <br> 특별한 선물을 전해보세요!</p>
+                 <ul>
+                     <li>
+                         <figure>
+                                <img src="sub/images/vaccine.jpg" alt="">
+                                <figcaption>
+                                    <h4>슈퍼히어로팩</h4>
+                                    <p>100,000원</p>
+                                    <a href="#none" class="more">view +</a>
+                                </figcaption>
+                            </figure>
+                         <div class="modal modal1">
+                             <div>
+                                 <table>
+                                    <caption class="">구성물품</caption>
+                                    <thead>
+                                        <tr class="row1">
+                                            <th scope="col">구성</th>
+                                            <th scope="col">효과</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">소아마비예방백신</th>
+                                            <td> 3회 경구투여 시 소아마비를 예방</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">홍역예방백신</th>
+                                            <td>2회 접종 시 어린이를 홍역예방</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">살충 처리된 모기장</th>
+                                            <td> 말라리아로부터 효과적으로 보호</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr class="rowResult">
+                                            <th scope="row">상세</th>
+                                            <td>
+                                                <ul>
+                                                    <li>소아마비백신(200회 접종량)</li>
+                                                    <li>홍역백신(60회 접종량)</li>
+                                                    <li> 살충 처리된 모기장 (10장)</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tfoot>
+                                </table>   
+                                 <a href="#none" class="close"><i class="far fa-times-circle"></i></a>
+                             </div>
+                         </div>
+                     </li>
+                     <li>
+                         <figure>
+                            <img src="sub/images/medical.jpg" alt="">
+                            <figcaption>
+                                <h4>건강쑥쑥 어린이팩</h4>
+                                <p>130,000원</p>
+                                <a href="#none" class="more">view +</a>
+                            </figcaption>
+                          </figure>
+                         <div class="modal modal2">
+                             <div>
+                                 <table>
+                                    <caption class="">구성물품</caption>
+                                    <thead>
+                                        <tr class="row1">
+                                            <th scope="col">구성</th>
+                                            <th scope="col">효과</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">영양실조치료식</th>
+                                            <td> 땅콩크림 타입의 치료식</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">영양실조치료우유</th>
+                                            <td>치료용 수유식입니다</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">복합미량영양소</th>
+                                            <td>성장발달에 중요한 필수영양소</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr class="rowResult">
+                                            <th scope="row">상세</th>
+                                            <td>
+                                                <ul>
+                                                    <li>영양실조치료식 150개</li>
+                                                    <li>영양실조치료우유 10캔</li>
+                                                    <li>복합미량영양소 600포</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                                <a href="#none" class="close"><i class="far fa-times-circle"></i></a>
+                             </div>
+                         </div>
+                     </li>
+                     <li>
+                         <figure>
+                            <img src="sub/images/kit.jpg" alt="">
+                            <figcaption>
+                                <h4>긴급구호팩</h4>
+                                <p>160,000원</p>
+                                <a href="#none" class="more">view +</a>
+                            </figcaption>
+                          </figure>
+                         <div class="modal modal3">
+                             <div>
+                                <table>
+                                    <caption class="">구성물품</caption>
+                                    <thead>
+                                        <tr class="row1">
+                                            <th scope="col">구성</th>
+                                            <th scope="col">효과</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">영양실조치료식</th>
+                                            <td>어린이 47명을 위한 즉석 영양식</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">응급처치키트</th>
+                                            <td>치료받을수 있는 필수 의약품 키트</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">구강수분보충염</th>
+                                            <td>어린이의 탈수증을 치료</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">식수정화제</th>
+                                            <td> 신속하게 깨끗한 물을 제공</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr class="rowResult">
+                                            <th scope="row">상세</th>
+                                            <td>
+                                                <ul>
+                                                    <li>영양실조치료식(92g X 140개)</li>
+                                                    <li>응급처치키트(필수 의약품 키트)</li>
+                                                    <li>구강수분보충염(300포)</li>
+                                                    <li>식수정화제(5,500정)</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                                 <a href="#none" class="close"><i class="far fa-times-circle"></i></a>
+                             </div>
+                         </div>
+                     </li>
+                 </ul>
+                 <div class="modal_box"></div>   
+             </section>
+         </article>   
+       
+    
+ <? include "foot.html" ?>
+ <script src="sub/js/sub.js"></script>
+</body>
+</html>

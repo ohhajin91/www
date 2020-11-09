@@ -1,0 +1,32 @@
+/* 3 depth의 공통 */
+
+.visual{width: 1920px; height: 300px; position: relative; left: 50%; top: 250px; margin-left: -960px;z-index: -3; overflow: hidden}
+
+.subnav_box{width: 1200px; margin: 0 auto; position: relative; top: 220px; left: 0; margin-bottom: 200px}
+
+.subnav_box h3{font-size: 2.5em; font-family: 'Nanum Gothic', sans-serif; color: #fff; position: absolute; left: 50%; top: -150px; margin-left: -75px}
+
+
+
+.subnav_box .subnav{position: absolute; left: 120px; top:0px; background: #fff;z-index: 1}
+.subnav_box .subnav ul{overflow: hidden; width: 1000px; margin: 0 auto; border: 1px solid #ccc; text-align: center}
+.subnav_box .subnav ul li{width: 25%; float: left; text-align: center}
+.subnav_box .subnav ul li a{display: block; color: #333; font-size: 1.2em; padding: 15px 0; transition: all .5s; font-family: 'Nanum Gothic', sans-serif}
+.subnav_box .subnav ul li a:hover{color: #00adef; font-weight: 700}
+
+.subnav_box .subnav ul li .current{color: #00adef; font-weight: 700; letter-spacing: -1px}
+
+#content .fas{font-size: 3em; position: fixed; right: 100px; bottom: 100px; color: #00adef; z-index: 100}
+
+
+#content .title_area{position: relative; height: 470px; border-bottom: 1px solid #ccc; margin-bottom: 150px}
+#content .title_area::after{content: '';width: 20px; height: 20px; position: absolute; border-radius: 10px; left: 50%;bottom: -10px; background: #00adef }
+#content .title_area .line_map{position: absolute; right: 100px; top: 125px; font-size: 0.75em; color: #666}
+
+#content .title_area h2{text-align: center; font-size: 3.75em; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; position: relative; top: 200px}
+#content .title_area p{text-align: center; font-size: 1.25em; font-family: 'Nanum Myeongjo', serif; position: relative; top: 250px; color: #057ca9}
+#content .title_area ul{overflow: hidden}
+#content .title_area li{float: left; font-size: 1.625em; font-family: 'Roboto', sans-serif; position: absolute; bottom: 20px}
+#content .title_area li:hover::after{content: ''; width: 60px; height: 2px; position: absolute; background: #00adef; left: 25%; bottom: -21px }
+#content .title_area li:nth-child(1){left: 400px}
+#content .title_area li:nth-child(2){right: 400px}

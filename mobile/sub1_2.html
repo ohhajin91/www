@@ -1,0 +1,158 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>유니세프</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="sub/common/sub_common.css">
+<link rel="stylesheet" href="sub/css/sub1_2.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html" ?> 
+    <div class="main">
+        <img src="sub/common/sub1_visual.jpg" alt=""> 
+    </div>
+    <!-- 서브네비영역 -->
+    <div class="subnav_box">
+        <h3>기관소개</h3>
+        
+        <div class="subnav">
+            <ul>
+                <li><a href="sub1_1.html">설립이념</a></li>
+                <li><a class="current" href="sub1_2.html">유니세프역사</a></li>
+                <li><a href="sub1_3.html">브랜드</a></li>
+            </ul>
+            
+        </div>
+    </div> 
+    <article id="content">
+        <h2>유니세프역사</h2>  
+          
+       <section class="content_area">
+           <h3 class="hidden">history</h3>
+            <ul class="tabs">
+                <li><a class="tab tab1" href="javascript:void(0);">1940 <br>~1960</a></li>
+                <li><a class="tab tab2" href="javascript:void(0);">1961 <br>~1980</a></li>
+                <li><a class="tab tab3" href="javascript:void(0);">1981 <br>~2000</a></li>
+                <li><a class="tab tab4" href="javascript:void(0);">2001 <br>~현재</a></li>
+            </ul>
+        <div class="tab_con">
+            <div class="history_title">
+                <h4>1940~1960</h4>
+            </div>
+            <div class="history_con">
+                <dl>
+                    <dt>46</dt>
+                    <dd>유니세프 창설</dd>
+                </dl>
+                <dl>
+                    <dt>50</dt>
+                    <dd>유니세프 임무<br> 전세계 개방도상국 확대</dd>
+                </dl>
+                <dl>
+                    <dt>53</dt>
+                    <dd>유엔 상설기구로 지정</dd>
+                </dl>
+                <dl>
+                    <dt>59</dt>
+                    <dd>유엔총회가 어린이인권선언 채택</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="tab_con">
+            <div class="history_title">
+                <h4>1961~1980</h4>
+            </div>
+            <div class="history_con">
+                <dl>
+                    <dt>65</dt>
+                    <dd>유니세프 노벨 평화상 수상</dd>
+                </dl>
+                <dl>
+                    <dt>79</dt>
+                    <dd>유엔 지정 세계 아동의 해를<br> 맞아 어린이 권리 지지</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="tab_con">
+            <div class="history_title">
+                <h4>1981~2000</h4>
+            </div>
+            <div class="history_con">
+                <dl>
+                    <dt>82</dt>
+                    <dd>'아동의 생존과 발달 캠페인' 시작</dd>
+                </dl>
+                <dl>
+                    <dt>89</dt>
+                    <dd>어린이의 생존과 보호, 발달, 참여의<br> 권리를 포함한 유엔아동권리협약 채택</dd>
+                </dl>
+                <dl>
+                    <dt>90</dt>
+                    <dd>유엔본부에서 세계아동정상회담 개최</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="tab_con">
+            <div class="history_title">
+                <h4>2001~현재</h4>
+            </div>
+            <div class="history_con">
+                <dl>
+                    <dt>01</dt>
+                    <dd>'어린이를 위한 지구촌 운동'과<br> '아동보호서약'캠페인 시작</dd>
+                </dl>
+                <dl>
+                    <dt>02</dt>
+                    <dd>유엔아동특별총회 개최</dd>
+                </dl>
+                <dl>
+                    <dt>15</dt>
+                    <dd>'새천년 개발', <br>'지속가능발전목표' 채택</dd>
+                </dl>
+                <dl>
+                    <dt>현재</dt>
+                    <dd>어린이 구호 전문기관으로<br> 어린이를 지키는 중</dd>
+                </dl>
+            </div>
+        </div>
+       </section>
+       
+    </article>
+ <? include "foot.html" ?> 
+ <script src="sub/js/tab.js"></script>
+</body>
+</html>

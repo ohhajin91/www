@@ -1,0 +1,47 @@
+body{background: #f2f2f2}
+
+#content{overflow: hidden; width: 1000px; position: relative; left: 50%; margin-left: -500px; top: 60px}
+#content h1{position: relative; left: 50%; margin-left: -200px; margin-bottom: 70px; width: 400px; height: 52px}
+#content h1 a{display: block;background: url(../../common/images/sitemaplogo.png)no-repeat; width: 400px; height: 52px;text-indent: -100000px; overflow: hidden}
+#content h2{font-size: 2em; font-family: 'Nanum Gothic', sans-serif; text-align: center; margin-bottom: 30px}
+#content h2 span{font-size: 0.714em; font-family: 'Roboto', sans-serif; color: #666; font-weight: normal}
+
+#content p{text-align: right;margin-right: 200px}
+#content p span{color: #ff0000; font-weight: bold}
+#content ul li{margin: 5px auto;padding: 3px}
+#content ul li dl{font-family: 'Nanum Gothic', sans-serif; padding: 10px; margin-left: 180px}
+#content ul li dt{margin-left: 5px; margin-bottom: 10px; font-size: 1.15em}
+#content ul li dt label{font-family: 'Nanum Gothic', sans-serif}
+#content ul li dd input,#content ul li dd .hp{border: 1px solid #ddd; background: #f4f4f4; padding: 12px 8px; border-radius: 3px; outline: none;}
+#content ul li dd{width: 600px; position: relative}
+#content ul li dd input{width: 100%}
+#content ul li dd input:focus{border-bottom: 1px solid #00adef; outline: none}
+#content ul li dd span{position: absolute; font-size: 0.875em;display: block}
+#content ul li dd #lock{position: absolute; right:20px; top: 8px; font-size: 1.3em; color: #00adef}
+#content ul li dd #passtext{right: 80px; top: 10px}
+#content ul li dd #loadtext3{right: 10px; top:10px}
+#content ul li dd #loadtext,#content ul li dd #loadtext2{width: 40%; right: 0; top: 10px}
+#content ul li dd #hptext1{left: 150px; top: 5px; font-size: .7em}
+#content ul li dd #hptext2{right: 150px; top: 5px; font-size: .7em}
+
+#content ul li:nth-of-type(1) dd{padding-left: 5px}
+
+#content ul li:nth-of-type(6) dl{overflow: hidden}
+#content ul li:nth-of-type(6) dt{float: left}
+#content ul li:nth-of-type(6) dd{float: left}
+#content ul li:nth-of-type(6) dd select{width: 17%; padding-left: 5%}
+#content ul li:nth-of-type(6) dd input{width: 25%}
+
+#content ul li:nth-of-type(7) dl{overflow: hidden; position: relative}
+#content ul li:nth-of-type(7) dt{float: left}
+#content ul li:nth-of-type(7) dd{float: left}
+#content ul li:nth-of-type(7) dd:nth-of-type(2){float: right}
+#content ul li:nth-of-type(7) dd>input{width: 30%}
+#content ul li:nth-of-type(7) dd select{width: 30%; padding: 9px; background: none; border-radius: 5px; border: 1px solid #ccc; outline: none; position: absolute; right: 180px; top: -38px}
+
+
+#content ul li:last-of-type{margin-bottom: 30px}
+#content ul li:last-of-type dd{margin-left: 210px}
+#content ul li:last-of-type dd a{padding: 10px 15px; border-radius: 3px}
+#content ul li:last-of-type dd a:nth-of-type(1){background: #00adef; color: #fff; margin-right: 50px} 
+#content ul li:last-of-type dd a:nth-of-type(2){background: #ddd}

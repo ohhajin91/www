@@ -1,0 +1,27 @@
+#content .content_area>figure{overflow: hidden; margin-bottom: 10%}
+#content .content_area>figure img{width: 90%; margin: 5%; border-radius: 3px}
+#content h4{font-size: 1.4em; font-family: 'Roboto', sans-serif; text-align: center; margin: 3%}
+#content .content_area>figure figcaption p{line-height: 1.5em; margin:2% 6%; text-align: justify}
+#content .content_area>figure figcaption p span{color: #00adef; font-family: 'Roboto', sans-serif}
+
+#content ul{overflow: hidden; margin-bottom: 10%}
+#content h4:nth-of-type(2){font-family:'Nanum Gothic', sans-serif}
+#content ul li{overflow: hidden; width: 100%; position: relative}
+#content ul li div{width: 46%; margin: 2%}
+#content ul li div:nth-of-type(1){float: left}
+#content ul li div:nth-of-type(2){float: right}
+#content ul li figure{width: 100%}
+#content ul li figure img{width: 100%; border-radius: 1%; margin-bottom: 10px}
+#content ul li figure figcaption{text-align: center; line-height: 1.5em}
+#content ul li figure figcaption h5{font-size: 1.125em;font-family:'Nanum Gothic', sans-serif}
+#content ul li figure figcaption p{font-family: 'Roboto', sans-serif; font-size: 0.875em}
+#content ul li figure figcaption a{color: #00adef; display: block;font-family: 'Roboto', sans-serif}
+
+#content ul li .modal{transition: all .8s; transform: scaleY(0); position: fixed; left: 50%; top: 50%; z-index: 105; background: #fff; width: 80%; height: 300px; margin-left: -40%; margin-top: -150px; transform: scaleY(0); overflow: auto; border-radius: 2%; border: 4px solid #00adef}
+#content ul li .modal div{padding:3%; width: 90%; position: relative}
+#content ul li .modal dl{width: 100%}
+#content ul li .modal dt{display: inline-block; width: 30%; margin:2% 0 5% 43%}
+#content ul li .modal dt img{width: 50%}
+#content ul li .modal dd{width: 98%;padding: 2%; text-align: justify; line-height: 1.8em}
+#content ul li .modal .close{position: absolute; right: 0; top: 0; font-size:2em}
+#content .modal_box{position: fixed; left: 0; top: 0; background: rgba(0,0,0,.5);width: 100%; height: 100%;z-index: 100; display: none}

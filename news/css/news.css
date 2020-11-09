@@ -1,0 +1,56 @@
+#content {width: 1200px; margin: 0 auto; overflow: hidden}
+/*list.php*/
+#content .news{position: relative; overflow: hidden; margin-bottom: 50px}
+#content h3{font-family: 'Roboto', sans-serif; font-size: 2.5em; text-align: center; margin-bottom: 50px}
+#content .news form{height: 40px; margin-top: 30px}
+#content .news .search_wrap{position: absolute; left: 50%; margin-left: -230px; top: 110px}
+#content .news .search_wrap i{font-size: 1.1em; margin-right: 5px}
+#content .news .search_wrap select{height: 30px; padding: 0 15px; border: 1px solid #ccc;border-radius: 3px}
+#content .news .search_wrap input:nth-of-type(1){height: 26px;width: 300px;  padding-left: 15px; border: 1px solid #ccc; border-radius: 3px; margin: 0 5px}
+#content .news div:nth-of-type(2){overflow: hidden}
+#content .news div:nth-of-type(2) div:nth-of-type(1){float: left;
+font-family: 'Roboto', sans-serif; margin-top: 50px}
+#content .news div:nth-of-type(2) div:nth-of-type(2){float: right}
+#content .news div:nth-of-type(2) div:nth-of-type(2) select{padding: 5px; border: none; outline: none; font-size: .95em; margin-top: 50px}
+
+#content .news #list_content{border-top: 3px solid #00adef;margin: 50px auto}
+#content .news .list_item{overflow: hidden; padding: 25px 0; border-bottom: 1px solid #ddd; text-align: center}
+#content .news .list_item li{float: left}
+#content .news .list_item li:nth-of-type(1){width: 10%; padding-top: 50px}
+#content .news .list_item li:nth-of-type(2){width: 15%}
+#content .news .list_item li:nth-of-type(2) img{width: 100%}
+#content .news .list_item li:nth-of-type(3){width: 55%; padding-top: 50px; font-family: 'Nanum Gothic', sans-serif}
+#content .news .list_item li:nth-of-type(4){width: 10%; padding-top: 50px}
+#content .news .list_item li:nth-of-type(5){width: 10%; padding-top: 50px}
+#content .news .list_item .fas{margin-right: 5px; color: #666}
+
+#content .news .page_button{margin: 50px 0 0 0; text-align: center; position: relative}
+#content .news .page_button i{cursor: pointer; color: #00adef}
+#content .news .page_button div:nth-of-type(2){position: absolute; right: 0; top: 0}
+
+/*view.php*/
+#content .news_view{margin-bottom: 50px; text-align: center}
+#content .news_view ul:nth-of-type(1){overflow: hidden; margin-bottom: 30px; border-bottom: 1px solid #ddd; border-top: 3px solid #00adef}
+#content .news_view ul:nth-of-type(1) li{padding: 20px 0; text-align: center}
+#content .news_view ul:nth-of-type(1) i{margin-right: 10px; color: #666}
+#content .news_view ul:nth-of-type(1) li:nth-of-type(2){margin-left: 50px}
+#content .news_view div:nth-of-type(1){margin: 50px auto; border-bottom: 1px solid #ddd; padding-bottom: 30px}
+#content .news_view div:nth-of-type(1) img{margin-bottom: 30px}
+#content .news_view div:nth-of-type(1) p{width: 900px; margin-left: 150px; text-align: justify; line-height: 2em}
+#content .news_view ul:nth-of-type(2){overflow: hidden;margin-left: 450px}
+#content .news_view ul:nth-of-type(2) li{float: right; margin-right: 20px; position: relative}
+#content .news_view ul:nth-of-type(2) li::after{content: '|'; position: absolute; right: -10px; top: 0; color: #999}
+#content .news_view ul:nth-of-type(2) li:last-of-type::after{content: ''}
+
+/*write_form.php*/
+#content .news_write{margin-bottom: 50px}
+#content .news_write form>ul:nth-of-type(1){overflow: hidden; margin-bottom: 30px; border-bottom: 1px solid #ddd; border-top: 3px solid #00adef; padding: 30px 0; text-align: center}
+#content .news_write form>ul:nth-of-type(1) li{margin: 20px auto; padding: 10px 0}
+#content .news_write form>ul:nth-of-type(1)>li:nth-of-type(1){border-bottom: 1px solid #ddd}
+#content .news_write form>ul:nth-of-type(1)>li:nth-of-type(2) input{width: 98%; padding: 10px 5px}
+#content .news_write form>ul:nth-of-type(1) li textarea{padding:5px}
+#content .news_write form>ul:nth-of-type(1) li ul{padding: 10px 0; margin-left: 10px}
+#content .news_write form>ul:nth-of-type(1) li ul i{color: #00adef; font-size: 1.1em;margin-right: 10px}
+#content .news_write form>ul:last-of-type{overflow: hidden; position: relative; left: 50%; margin-left: -80px}
+#content .news_write form>ul:last-of-type li{float: left; margin-right: 30px;position: relative}
+#content .news_write form>ul:last-of-type>li:nth-of-type(1)::after{content: '|'; position: absolute; right: -17px; top: 0; color: #888}

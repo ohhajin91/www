@@ -1,0 +1,56 @@
+#content{overflow: hidden}
+#content .content_inner{width: 1200px; margin: 0 auto}
+
+
+/*본문탭*/
+#content .content_area{position: relative}
+#content .content_area .tab{display: block; font-size: 1.625em; font-family: 'Roboto', sans-serif; position: absolute; top: -200px}
+#content .tab1{left: 300px}
+#content .tab2{right: 300px}
+#content .content_area .brand{display: none;margin-top: 150px}
+#content .content_area .tab:hover::after{content: ''; width: 100px; height: 2px; position: absolute; background: #00adef; right: 5px; bottom: -16px}
+#content .content_area .on{color: #00adef}
+
+/*파라미터*/
+#content .content_area .brand{clear: both; margin-bottom: 150px}
+#content .content_area .brand h4{font-family: 'Roboto', sans-serif; font-size: 2.5em; text-align: center; margin-bottom: 50px}
+#content .content_area .brand p{text-align: center; font-size: 1.25em; font-family: 'Nanum Myeongjo', serif;color: #057ca9; margin-bottom: 100px}
+
+#content .brand ul:nth-of-type(1){overflow: hidden; margin-bottom: 100px}
+#content .brand .btn{float: left; width:19%; text-align: center; font-size: 1.25em; border: 1px solid #d9d9d9; padding: 15px 0; transition: all .5s; font-family: 'Nanum Gothic', sans-serif; color: #666; position: relative}
+
+/*본문1*/
+#content .list{width: 100%; position: relative; display: none; overflow: hidden}
+#content .list>img:nth-of-type(1){position: absolute; left: 48%; top: 150px; transition: all .5s}
+#content .list dl{clear: both}
+#content .list dl dt{text-align: center; font-size: 1.75em; font-family: 'Nanum Gothic', sans-serif; padding: 70px}
+#content .list dl dd{text-align: justify; font-size: 1.111em; line-height: 1.7em;width: 1000px; margin: 100px 0 100px 100px}
+
+#content .work .list>div{overflow: hidden; margin-bottom: 100px}
+#content .work .list>div img{float: left; width: 500px; height: 333px;margin: 0 50px; border-radius: 5px}
+#content .work .list>div ul{float: left; width: 500px; line-height: 2em; text-align: justify; margin: 10px 25px} 
+#content .work .list>div ul li{margin-bottom: 15px}
+#content .work .list h6{text-align: center; font-size: 1.5em;font-family: 'Nanum Gothic', sans-serif}
+#content .work .list>ul{overflow: hidden}
+#content .work .list>ul li{width: 300px; float: left; margin: 100px 48px 0 48px; text-align: center; line-height: 2.5em; border: 2px solid #00adef; border-radius: 15px; padding: 10px 0; transition: all .8s; position: relative}
+#content .work .list>ul li:hover{border-color: #ccc}
+#content .work .list>ul li:hover::after{content: url("../images/content1/check.png") ; position: absolute; right: 12px;top: 10px;}
+#content .work .list>ul li span{font-weight: bold}
+
+
+#content .work_sub figure{overflow: hidden}
+#content .work_sub figure:nth-of-type(1){margin-bottom: 50px}
+#content .work_sub figure:nth-of-type(1)>img{float: left;margin-bottom: 50px}
+#content .work_sub figure:nth-of-type(2)>img{float: right; margin-bottom: 50px}
+
+#content .work_sub figure:nth-of-type(1)>figcaption{margin-left: 600px}
+#content .work_sub figure:nth-of-type(2)>figcaption{margin-right: 600px}
+#content .work_sub figcaption h5:last-of-type{font-size: 1.875em; font-family: 'Nanum Gothic', sans-serif; margin: 50px auto; text-align: center}
+
+#content .work_sub figure figcaption>p:last-of-type{font-size: 1em; line-height: 2em; color: #666; font-family: '돋움'; text-align: justify}
+#content .work_sub h6{text-align: center; font-size: 1.5em;font-family: 'Nanum Gothic', sans-serif}
+#content .work_sub ul{overflow: hidden}
+#content .work_sub ul li{width: 300px; float: left; margin: 100px 48px 0 48px; text-align: center; line-height: 2.5em; border: 2px solid #00adef; border-radius: 15px; padding: 10px 0; transition: all .8s; position: relative}
+#content .work_sub ul li:hover{border-color: #ccc}
+#content .work_sub ul li:hover::after{content: url("../images/content1/check.png") ; position: absolute; right: 10px;top: 10px;}
+#content .work_sub ul li span{font-weight: bold}

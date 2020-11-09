@@ -1,0 +1,14 @@
+#content {width: 1200px; margin: 0 auto; overflow: hidden}
+
+
+/*본문*/
+#content .content_area .child{position: relative; overflow: hidden; margin-bottom: 100px}
+#content .content_area h3{font-family: 'Roboto', sans-serif; font-size: 2.5em; text-align: center; margin-bottom: 50px}
+
+#content .child ul{background: url(../images/content4/company.jpg)center center no-repeat; width: 1200px; height: 300px; position: relative; border-radius: 50px; margin-bottom: 100px}
+#content .child li{position: absolute; font-size: 1.25em; font-family:'Nanum Gothic', sans-serif; width: 200px; height: 200px; border-radius: 50%; background: rgba(255,255,255,.3); color: #fff; padding: 90px 28px ; box-sizing: border-box}
+#content .child li:nth-of-type(1){left: 20%; top: 20%}
+#content .child li:nth-child(1)::after{content: ''; width: 300px; height: 2px; background: #ccc; position: absolute; left: 210px}
+#content .child li:nth-of-type(2){right: 20%; top: 20%}
+#content .child p{margin:20px 50px; line-height: 2em; font-size: 1.22em}
+#content .child p:nth-of-type(2){color: #0d88b7}

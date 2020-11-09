@@ -1,0 +1,19 @@
+#content {width: 1200px; margin: 0 auto; overflow: hidden;position: relative}
+
+/*본문*/
+#content .volunteer{margin-bottom: 150px;height: 1180px; overflow: hidden; padding-top: 20px}
+#content .volunteer h3{font-size: 2em;text-align: center; font-family: 'Nanum Gothic', sans-serif;margin-bottom: 50px}
+#content .volunteer p{font-size: 100%; line-height: 2em;text-align: center; margin-bottom: 50px; font-size: 1.2em}
+#content .volunteer img{border-radius: 15px; margin-left: 100px}
+
+#content .volunteer table{border-collapse: collapse; width: 1200px; margin: 50px 0}
+#content .volunteer caption{font-size:1.75em; font-family:'Nanum Gothic', sans-serif; text-align: center; margin-bottom: 50px; position: relative}
+#content .volunteer th,#content .volunteer td{border-bottom: 1px dashed #ccc; padding: 20px 10px;text-align: center}
+#content .volunteer th{font-size: 1.25em; font-family:'Nanum Gothic', sans-serif }
+#content .volunteer td{font-size: 1.111em;line-height: 1.5em}
+#content .volunteer span{display: block; margin-top: 15px;color: #ce6b00}
+#content .volunteer a{display: block; background: #00adef; width: 150px; height: 35px; border-radius: 5px; position: relative; left: 50%; margin-left: -75px; padding: 5px; box-sizing: border-box; transition: all .8s; color: #fff}
+#content .volunteer a:hover{background: none; border: 1px solid #ccc;color: #00adef}
+#content .btn{display: block; position: absolute;top: 50%; font-size: 2em}
+#content .btn:nth-of-type(1){left: 50px}
+#content .btn:nth-of-type(2){right: 50px}

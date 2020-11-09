@@ -1,0 +1,53 @@
+<script>
+     window.onload=function(){
+
+        let num = '<?=$_GET['num']?>';
+
+        let nav1= document.getElementById('nav1'); 
+
+        let nav2= document.getElementById('nav2');
+
+        let nav3= document.getElementById('nav3');
+
+        let nav4= document.getElementById('nav4');
+
+    
+
+          if(num==1){
+
+              nav1.className='current';
+
+          }else if(num==2){
+
+              nav2.className='current';
+
+          }else if(num==3){
+
+              nav3.className='current';
+
+          }
+
+}
+
+</script>
+      
+  <!-- 메인비주얼 -->
+       <div class="visual">
+           <img src="../sub2/common/images/sub2_visual.jpg" alt="">   
+       </div>    
+     
+    <!-- 서브네비영역 -->
+    <div class="subnav_box">
+        <h3>기관활동</h3>
+       
+        
+        <div class="subnav">
+            <ul>
+                <li><a id="nav1" href="sub2_1.html">유니세프 사업</a></li>
+                <li><a id="nav2" href="sub2_2.html">한국위원회 사업</a></li>
+                <li><a id="nav3" href="sub2_3.html">유니세프와 사람들</a></li>
+            </ul>
+            
+        </div>
+    </div>
+   

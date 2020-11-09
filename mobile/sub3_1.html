@@ -1,0 +1,119 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>유니세프</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="sub/common/sub_common.css">
+<link rel="stylesheet" href="sub/css/sub3_1.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html" ?>
+    <div class="main">
+        <img src="sub/common/sub3_visual.jpg" alt=""> 
+    </div>
+    <!-- 서브네비영역 -->
+    <div class="subnav_box">
+        <h3>참여후원</h3>
+        
+        <div class="subnav">
+            <ul>
+                <li><a class="current" href="sub3_1.html">후원안내</a></li>
+                <li><a href="sub3_2.html">착한선물</a></li>
+                <li><a href="sub3_3.html">아우인형</a></li>
+            </ul>
+        </div>
+    </div> 
+         <article id="content">
+             <h2>후원안내</h2>
+             <section class="content_area">
+                 <h3 class="hidden">후원</h3>
+                     <figure>
+                         <img src="sub/images/support_960.jpg" alt="">
+                         <figcaption>
+                             <h5>모든 어린이는 보호받을 권리가 있습니다.</h5>
+                             <p>어린이는 보호와 지원을 받아야 하지만 세상의 많은 어린이들은 전쟁과 기아, 폭력, 질병 등으로 고통받고 있습니다.</p>
+                         </figcaption>
+                     </figure>
+                     <h4>정기후원</h4>
+                 <div>
+                     <dl>
+                         <dt>생명 구조</dt>
+                         <dd>매년 어린이 590만 명이 다섯 번째 생일을 맞기 전 목숨을 잃습니다.</dd>
+                     </dl>
+                     <dl>
+                         <dt>긴급 대응</dt>
+                         <dd>정기후원금으로 자연재해, 전쟁 등 긴급 상황 발생 즉시 아이들을 구할 수 있습니다.</dd>
+                     </dl>
+                     <dl>
+                         <dt>꾸준한 도움</dt>
+                         <dd>교육을 통해 아이들은 올바르게 성장하고 스스로 자립할 수 있습니다.</dd>
+                     </dl>
+                 </div>
+                 <div>
+                     <h4>일시후원</h4>
+                     <p><span>작은 나눔의 첫걸음.</span><br> 유니세프와 함께하는 나눔의 첫걸음, 모이면 기적이 만들어집니다.</p>
+                     <a href="javascript:void(0);">후원하기</a>
+                 </div>
+                 <ul>
+                     <li>
+                         <h4>학교후원</h4>
+                         <p>학급, 동아리, 전교생, 교직원, 학부모 등 누구나 학교에서 유니세프 기금을 모을 수 있습니다.</p>
+                     </li>
+                     <li>
+                         <h4>병원후원</h4>
+                         <p>모든 어린이가 건강한 세상을 위해, 유니세프 후원병원이 되어주세요.</p>
+                     </li>
+                 </ul>
+                 <div class="top">
+                     <p>모든어린이가 <br> 행복한 세상</p>
+                     <a href="javascript:void(0);">
+                         신청하기
+                     </a>
+                 </div>
+                 <div>
+                     <p>모든어린이가 <br> 행복한 세상</p>
+                     <a href="javascript:void(0);">
+                         신청하기
+                     </a>
+                 </div>
+             </section>
+         </article>   
+        
+<? include "foot.html" ?>
+<script src="sub/js/sub.js"></script>
+</body>
+</html>

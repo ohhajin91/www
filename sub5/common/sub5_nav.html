@@ -1,0 +1,56 @@
+<script>
+     window.onload=function(){
+
+        let num = '<?=$_GET['num']?>';
+
+        let nav1= document.getElementById('nav1'); 
+
+        let nav2= document.getElementById('nav2');
+
+        let nav3= document.getElementById('nav3');
+
+        let nav4= document.getElementById('nav4');
+
+    
+
+          if(num==1){
+
+              nav1.className='current';
+
+          }else if(num==2){
+
+              nav2.className='current';
+
+          }else if(num==3){
+
+              nav3.className='current';
+
+          }else if(num==4){
+
+              nav4.className='current';
+
+          }
+
+}
+
+</script>
+    <!-- 메인비주얼 -->
+       <div class="visual">
+           <img src="../sub5/common/images/sub5_visual.jpg" alt="">   
+       </div>    
+     
+    <!-- 서브네비영역 -->
+    <div class="subnav_box">
+        <h3>기관소식</h3>
+       
+        
+        <div class="subnav">
+            <ul>
+                <li><a id="nav1" href="../news/list.php">News</a></li>
+                <li><a id="nav2" href="../greet/list.php">공지사항</a></li>
+                <li><a id="nav3" href="sub5_3.html">Story</a></li>
+                <li><a id="nav4" href="sub5_4.html">Q&amp;A</a></li>
+            </ul>
+            
+        </div>
+    </div>

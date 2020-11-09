@@ -1,0 +1,22 @@
+#content .content_area .tabs{overflow: hidden; margin-bottom: 5%}
+#content .content_area .tabs li{width: 48%; float: left; overflow: hidden; margin: 0 1%}
+#content .content_area .tabs li:last-of-type{float: right}
+#content .content_area .tabs li a{display: block; width: 100%; text-align: center; font-family: 'Nanum Gothic', sans-serif; padding: 5% 0; box-sizing: border-box}
+#content .content_area .current{border-bottom: 2px solid #00adef; color: #00adef;font-family: 'Nanum Gothic', sans-serif}
+
+#content .tab_con{overflow: hidden; clear: both}
+#content .tab_con h4{font-size: 1.3em; font-family: 'Nanum Gothic', sans-serif; margin: 5%; position: relative}
+#content .tab_con h4::before{content: ''; width: 30px; height: 2px; background: #e34e09; position: absolute; left: 0 ;bottom: -3px}
+#content .tab_con img{width: 90%; margin: 2% 5%; border-radius: 3px}
+#content .tab_con ul>li{line-height: 1.5em ; margin: 0 2%}
+
+
+#content .tab_con:nth-of-type(1) p{line-height: 1.5em; margin: 2% 5%}
+#content .tab_con li h5{font-size: 1.15em; margin-left: 10%; position: relative;font-family: 'Nanum Gothic', sans-serif}
+#content .tab_con li h5::before{content: ''; width: 7px; height: 7px; border-radius: 50%; background: #00adef; position: absolute; left: -10px; top: 5px}
+#content .tab_con dl{margin: 5% 17%}
+#content .tab_con dt{margin: 5% 0; font-weight: bold; color: #666}
+#content .tab_con:nth-of-type(1) dd{line-height: 1.5em}
+
+
+#content .tab_con:nth-of-type(2) ul ul>li{line-height: 1.5em ; width: 90%; margin: 3% 8%}

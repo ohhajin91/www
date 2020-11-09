@@ -1,0 +1,102 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>유니세프</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="sub/common/sub_common.css">
+<link rel="stylesheet" href="sub/css/sub1_1.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html" ?> 
+    <div class="main">
+        <img src="sub/common/sub1_visual.jpg" alt=""> 
+    </div>
+    <!-- 서브네비영역 -->
+    <div class="subnav_box">
+        <h3>기관소개</h3>
+        
+        <div class="subnav">
+            <ul>
+                <li><a class="current" href="sub1_1.html">설립이념</a></li>
+                <li><a href="sub1_2.html">유니세프역사</a></li>
+                <li><a href="sub1_3.html">브랜드</a></li>
+            </ul>
+            
+        </div>
+    </div> 
+    <article id="content">
+        <h2>설립이념</h2>  
+          
+       <section class="content_area">
+          <h3 class="hidden">설립가치</h3>
+           <ul>
+               <li>
+                  <span></span>
+                   <dl>
+                       <dt>차별없는 구조정신</dt>
+                       <dd>유니세프의 설립 정신은 국적과 인종, 이념, 종교, 성별 등과 상관 없이 도움을 필요로 하는  어린이가 있는 곳이면 어디든지 달려가 도움의 손길을 전하는 '차별 없는 구호' 입니다.</dd>
+                   </dl>
+               </li>
+               <li>
+                  <span></span>
+                   <dl>
+                       <dt>가정과 지역사회의 능력개발</dt>
+                       <dd>유니세프는 각 개발도상국에서 그 나라 정부 및 유엔기구, 인도주의적인  비정부기구들과 협력하여 활동하고 있습니다.</dd>
+                   </dl>
+               </li>
+               <li>
+                  <span></span>
+                   <dl>
+                       <dt>사업동반자와의 긴밀한 협력</dt>
+                       <dd>유니세프는 장기적인 차원에서 어린이 상황을 개선하기 위해 각 가정과 지역사회가 스스로의 능력을 키우도록 도와줍니다.</dd>
+                   </dl>
+               </li>
+               <li>
+                  <span></span>
+                   <dl>
+                       <dt>지속가능한 인류의 발전 지향</dt>
+                       <dd>유니세프는 인류의 발전이 어린이가 어떻게 보호받고 자라나는가에 달려있다고 믿습니다. 지구촌이라는 세계공동체는 어린이의 건강과 교육, 평등, 보호를 위해 인도주의 를 실천해야할 의무를 지고 있습니다. </dd>
+                   </dl>
+               </li>
+           </ul>
+       </section>
+       
+    </article>
+<? include "foot.html" ?> 
+ 
+</body>
+</html>

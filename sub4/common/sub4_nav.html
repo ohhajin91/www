@@ -1,0 +1,57 @@
+<script>
+     window.onload=function(){
+
+        let num = '<?=$_GET['num']?>';
+
+        let nav1= document.getElementById('nav1'); 
+
+        let nav2= document.getElementById('nav2');
+
+        let nav3= document.getElementById('nav3');
+
+        let nav4= document.getElementById('nav4');
+
+    
+
+          if(num==1){
+
+              nav1.className='current';
+
+          }else if(num==2){
+
+              nav2.className='current';
+
+          }else if(num==3){
+
+              nav3.className='current';
+
+          }else if(num==4){
+
+              nav4.className='current';
+
+          }
+
+}
+
+</script>
+      
+   <!-- 메인비주얼 -->
+       <div class="visual">
+           <img src="../sub4/common/images/sub4_visual.jpg" alt="">   
+       </div>    
+     
+    <!-- 서브네비영역 -->
+    <div class="subnav_box">
+        <h3>후원참여</h3>
+       <p>아이들의 손을 잡아주세요.</p>
+        
+        <div class="subnav">
+            <ul>
+                <li><a id="nav1" href="sub4_1.html">후원안내</a></li>
+                <li><a id="nav2" href="sub4_2.html">착한상품</a></li>
+                <li><a id="nav3" href="sub4_3.html">자원봉사</a></li>
+                <li><a id="nav4" href="../download/list.php">자료실    </a></li>
+            </ul>
+            
+        </div>
+    </div>

@@ -1,0 +1,86 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>유니세프-아동권리와 책임</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]--> 
+</head>
+<body>
+  <? include "../common/sub_head.html" ?>
+ <? $_GET['num']=2;
+   include "common/sub3_nav.html"; ?>
+     <!-- 본문컨텐츠영역 -->                    
+    <article id="content">
+       <div class="content_inner">
+        <div class="title_area">
+            <div class="line_map">
+              <span>HOME </span>&gt;<span> 아동권리 </span>&gt; <strong>아동권리와 책임</strong>  
+            </div>
+            <h2>아동권리와 책임</h2>
+        </div>
+     </div>
+    <div class="content_area">
+        <section class="child">
+         
+           <h3>어린이의 약속</h3>
+           <figure>
+               <img src="../sub3/images/content2/promise.jpg" alt="">
+               <figcaption>
+                   <ul>
+                       <li>나와 친구들의 권리를 지키겠습니다.</li>
+                       <li>다르다는 이유로 차별하지 않겠습니다.</li>
+                       <li>서로 사랑하며 존중하겠습니다.</li>
+                       <li>어른이 되어도 어린이의 권리를 지키겠습니다.</li>
+                   </ul>
+               </figcaption>
+           </figure>
+           
+               <h3>권리의 책임</h3>
+                 <div>
+                      <dl>
+                          <dt>Nation</dt>
+                          <dd>협약을 비준한 국가는 아동권리 실현을 위한 법과 정책을 마련해야 합니다</dd>
+                      </dl>
+                      <dl>
+                          <dt>UN Child right</dt>
+                          <dd>각 국가가 낸 이행 보고서를 검토하고 각 국가에서 개선해야 할 사항이 있을 경우 필요한 조치를 취합니다.</dd>
+                      </dl>
+                      <dl>
+                          <dt>Private organization</dt>
+                          <dd>아동권리협약은 민간단체의 역할을 인정하는 유일한 인권조약입니다</dd>
+                      </dl>
+                      <dl>
+                          <dt>Adult</dt>
+                          <dd>어린이를 돌보거나 어린이를 위해 일하는 어른들도 모두 아동권리를 지켜 주어야 합니다.</dd>
+                      </dl>
+                      <dl>
+                          <dt>Child</dt>
+                          <dd>자신이 가진 권리가 소중한 만큼 다른 어린이의 권리도 잘 지켜 주어야 합니다.</dd>
+                      </dl>
+          </div>
+          <div>
+              <a href="javascript:void(0);">아동권리협약전문 다운로드</a>
+              <a href="javascript:void(0);">아동권리협약 포스터 다운로드</a>
+          </div>
+        </section>
+        </div>
+    </article>
+ <? include "../common/sub_foot.html" ?> 
+</body>
+</html>

@@ -1,0 +1,126 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>유니세프-자원봉사</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]--> 
+</head>
+<body>
+  <? include "../common/sub_head.html" ?>
+  <? $_GET['num']=3;
+   include "common/sub4_nav.html"; ?>
+     <!-- 본문컨텐츠영역 -->                    
+    <article id="content">
+       <div class="content_inner">
+        <div class="title_area">
+            <div class="line_map">
+              <span>HOME </span>&gt;<span> 후원참여 </span>&gt; <strong>자원봉사</strong>  
+            </div>
+            <h2>Volunteer work</h2>
+        </div>
+     </div>
+        
+  <div class="content_area">
+        <section class="volunteer">
+                <h3 class="hidden">U-champ</h3>
+                 <figure>
+                    <h3>대학생 자원봉사자</h3>
+                     <p>유챔프(U Champ)는 유니세프 챔피온스(UNICEF Champions)의 줄임말로 <br>모든 어린이가 행복한 세상을 위해 행동하는 유니세프한국위원회 대학생 자원봉사단입니다.</p>
+                     <img src="images/content3/uchamp.jpg" alt="">
+                     <figcaption>
+                       <table>
+                            <caption class="">U Champ</caption>
+                            <thead>
+                                <tr class="row1">
+                                    <th scope="col" colspan="2" class="hidden">대학생자원봉사</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <th scope="row">대상</th>
+                                    <td>1.1년 간 지속적으로 활동이 가능한 대학교 재학생 및 휴학생</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">활동내용</th>
+                                    <td>유니세프한국위원회 업무지원, 홍보부스 및 캠페인 운영</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">모집방법</th>
+                                    <td>연 1회 홈페이지를 통해 모집합니다. <span>* 해외자원봉사프로그램은 운영하지 않습니다.</span> </td>
+                                </tr>
+                            </tbody>
+                             
+                            <tfoot>
+                                <tr class="rowResult">
+                                    <th scope="row">지원서양식</th>
+                                    <td><a href="#">지원서 다운로드</a></td>
+                                </tr>
+                            </tfoot>
+                        </table>  
+                     </figcaption>
+                 </figure>
+            <h3 class="hidden">campaigners</h3>
+             <figure>
+                <h3>체험관 운영 서포터즈</h3>
+                     <p>유니세프 캠페이너스는 유니세프 어린이지구촌체험관에 방문하는 어린이들이 다양한 지구촌 문제에 대해 알아보며,<br> 차별 없는 유니세프 구호활동을 경험하고, 세계시민의 꿈을 키울 수 있도록 돕는 일을 합니다. </p>
+                 <img src="images/content3/campaigners.jpg" alt="">
+                 <figcaption>
+                    <table>
+                        <caption class="">Campaigners</caption>
+                        <thead>
+                            <tr class="row1">
+                                <th scope="col" colspan="2" class="hidden">체험관운영서포터즈</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">대상</th>
+                                <td> 만 19세 이상 ~ 만 30세 미만의 대학(원)생 및 휴학생<br>2. 9개월 지속 활동 가능 자 (월 1회 이상, 총 15회 이상 활동 시 수료 가능)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">활동내용</th>
+                                <td>체험 코너 안내/체험관 운영, 기획, 홍보 지원</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">활동장소</th>
+                                <td>유니세프빌딩 1층 유니세프 어린이지구촌 체험관</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr class="rowResult">
+                                <th scope="row">모집방법</th>
+                                <td>연 1~2회 홈페이지를 통해 모집합니다.</td>
+                            </tr>
+                        </tfoot>
+                    </table>   
+                 </figcaption>
+             </figure>
+   
+      </section>
+    </div>
+    <a class="btn left_btn" href="#none"><i class="fas fa-chevron-left"></i></a>
+    <a class="btn right_btn" href="#none"><i class="fas fa-chevron-right"></i></a>
+    
+    </article>
+       
+      <? include "../common/sub_foot.html" ?>
+      <script src="../sub4/js/sub4.js"></script>   
+</body>
+</html>

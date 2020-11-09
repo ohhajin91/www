@@ -1,0 +1,246 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name = "format-detection" content = "telephone=no">
+<title>유니세프</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/swiper.css">
+ 
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+  <? include "head.html" ?>  
+      <!--비쥬얼 영역-->
+        <div class="main swiper-container">
+         <div class="swiper-wrapper">
+             <div class="swiper-slide"><img src="images/main_visual1_960.jpg" alt=""></div>
+             <div class="swiper-slide"><img src="images/main_visual2_960.jpg" alt=""></div>
+             <div class="swiper-slide"><img src="images/main_visual3_960.jpg" alt=""></div>
+             <div class="swiper-slide"><img src="images/main_visual4_960.jpg" alt=""></div>
+         </div>
+         <div class="swiper-pagination"></div>
+       </div>
+      <!--본문콘텐츠영역-->
+      <article id="content">
+         <h2 class="hidden">본문콘텐츠영역</h2>
+          <div class="bui_box">
+              <h3>Who we are</h3>
+              <div class="busi">
+              <ul>
+                  <li>
+                      <a href="sub1_1.html"><img src="images/equality_960.png" alt=""></a>
+                      <span>차별없는 구조정신</span>
+                  </li>
+                  <li>
+                      <a href="sub1_1.html"><img src="images/development_960.png" alt=""></a>
+                      <span>지역사회의 능력개발</span>
+                  </li>
+                  <li>
+                      <a href="sub1_1.html"><img src="images/cooperation_960.png" alt=""></a>
+                      <span>긴밀한 협업</span>
+                  </li>
+                  <li>
+                      <a href="sub1_1.html"><img src="images/human_960.png" alt=""></a>
+                      <span>인류의 발전지향</span>
+                  </li>
+              </ul>
+              </div>
+              <a class="up" href="javascript:void(0);">up</a>
+              <a class="down" href="javascript:void(0);">down</a>
+          </div>
+          <div>
+              <p>후원문의 <a href="02-737-1004">TEL : 02-737-1004</a><span>전화</span></p>
+              <h3>후원안내</h3>
+                 <div class="support_wrap">
+                 <div class="support_swiper">
+                  <ul>
+                      <li>
+                         <a href="sub3_1.html">
+                              <img src="images/sponsor_1_960.jpg" alt="">
+                              <dl>
+                                  <dt>정기후원</dt>
+                                  <dd>어린이의 생명을 살리는 <br>아름다운 약속</dd>
+                              </dl>
+                          </a>
+                      </li>
+                      <li>
+                         <a href="sub3_1.html">
+                              <img src="images/sponsor_2_960.jpg" alt="">
+                              <dl>
+                                  <dt>일시후원</dt>
+                                  <dd>작은 나눔의 첫 걸음<br>모이면 기적</dd>
+                              </dl>
+                          </a>
+                      </li>
+                      <li>
+                         <a href="sub3_1.html">
+                              <img src="images/sponsor_3_960.jpg" alt="">
+                              <dl>
+                                  <dt>학교후원</dt>
+                                  <dd>모든 어린이가 <br>교육받는 세상</dd>
+                              </dl>
+                          </a>
+                      </li>
+                      <li>
+                         <a href="sub3_1.html">
+                              <img src="images/sponsor_4_960.jpg" alt="">
+                              <dl>
+                                  <dt>해외후원</dt>
+                                  <dd>모든 어린이가 <br>행복한 세상</dd>
+                              </dl>
+                          </a>
+                      </li>
+                      <li>
+                         <a href="sub3_1.html">
+                              <img src="images/sponsor_5_960.jpg" alt="">
+                              <dl>
+                                  <dt>병원후원</dt>
+                                  <dd>모든 어린이가 <br>건강한 세상</dd>
+                              </dl>
+                          </a>
+                      </li>
+                  </ul>
+                  </div>
+                  </div>
+                 <a class="left" href="javascript:void(0);">left</a>
+              <a class="right" href="javascript:void(0);">right</a> 
+              </div>  
+          <div>
+              <h3>UNICEF ISSUE</h3>
+              <ul>
+                  <li><a href="sub2_2.html">환경과 기후변화 <span>바로가기</span></a></li>
+                  <li><a href="sub2_2.html">이노베이션<span>바로가기</span></a></li>
+                  <li><a href="sub2_2.html">난민 어린이<span>바로가기</span></a></li>
+                  <li><a href="sub2_2.html">에볼라<span>바로가기</span></a></li>
+                  <li><a href="sub2_2.html">코로나 19<span>바로가기</span></a></li>
+              </ul>
+          </div>
+          <div>
+              <h3>아동권리 활동</h3>
+              <ul>
+                  <li>
+                      <img src="images/child_1_960.jpg" alt="">
+                      <a href="sub4_2.html?a=1"><span>아동권리 교육</span></a>
+                  </li>
+                  <li>
+                      <img src="images/child_2_960.jpg" alt="">
+                      <a href="sub4_2.html?a=2"><span>모유수유 권장</span></a>
+                  </li>
+              </ul>
+              <ul>
+                  <li>
+                      <img src="images/child_3_960.jpg" alt="">
+                      <a href="sub4_2.html?a=3"><span>아동친화 기업</span></a>
+                  </li>
+                  <li>
+                      <img src="images/child_4_960.jpg" alt="">
+                      <a href="sub4_2.html?a=4"><span>아동친화 도시</span></a>
+                  </li>
+              </ul>
+          </div>
+            <? include "../lib/func1.php"; ?> 
+          <div class="story">
+              <h3>STORY</h3>
+                 <ul>
+                  <? latest_article("story", 5, 10); ?> 
+                 </ul>
+              <a href="story/list.php"
+              ><span>view more</span></a>
+          </div>
+          <div>
+              <h3>FOR EVERY CHILD</h3>
+              <ul>
+                  <li>
+                      <a href="sub1_3.html">
+                         <div></div>
+                          <img src="images/mission_960.jpg" alt=""><span>MISSION</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="sub4_1.html">
+                         <div></div>
+                          <img src="images/child_right_960.jpg" alt="">
+                          <span>CHILD RIGHT</span>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+          <div>
+              <h3 class="hidden">SNS</h3>
+              <ul>
+                  <li>
+                      <a href="https://www.youtube.com/user/unicefMedia">
+                          <img src="images/youtube_960.png" alt="">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.instagram.com/unicef_kr">
+                          <img src="images/instagram_960.png" alt="">
+                      </a>    
+                  </li>
+                  <li>
+                      <a href="https://www.facebook.com/unicefkr">
+                          <img src="images/facebook_960.png" alt="">
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </article>
+
+ <? include "foot.html" ?>  
+ <script src="js/index.js"></script>
+ <!-- Swiper JS -->
+<script src="js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  
+  </script>
+</body>
+</html>

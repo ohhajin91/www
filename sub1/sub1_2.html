@@ -1,0 +1,88 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>유니세프-유니세프한국위원회</title>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->  
+</head>
+<body>
+   <? include "../common/sub_head.html" ?>
+   <? $_GET['num_uni']=2;
+   include "common/sub1_nav.html"; ?>
+              
+    <!-- 본문컨텐츠영역 -->                    
+    <article id="content">
+        
+        <div class="title_area">
+            <div class="line_map">
+              <span>HOME </span>&gt;<span> 기관소개 </span>&gt;<strong> 유니세프한국위원회</strong>  
+            </div>
+            <h2>유니세프한국위원회</h2>
+            <p>수혜국에서 도움을 주는 나라가 되었습니다.</p>
+        </div>
+        
+        <div class="content_area">
+            <section class="unicef_korea">
+                <h3>한국에서의 유니세프 사업 <span>4STEPS</span></h3>
+                
+             
+                    <ol>
+                        <li>
+                             <dl>
+                                 <dt>1950 - 1962</dt>
+                                 <dd>긴급구호단계</dd>
+                             </dl>
+                        </li>
+                        <li>
+                             <dl>
+                                 <dt>1963 - 1976</dt>
+                                 <dd>아동의 <br>생존발달 단계</dd>
+                             </dl>
+                        </li>
+                        <li>    
+                             <dl>
+                                 <dt>1977 - 1986</dt>
+                                 <dd>조기아동교육 <br>사업단계</dd>
+                             </dl>
+                        </li>
+                        <li>
+                             <dl>
+                                 <dt>1987 - 1993</dt>
+                                 <dd>세계어린이를 위한 <br>새로운동반자 단계</dd>
+                             </dl>
+                        </li>
+                </ol>
+                 
+           </section>
+           <div class="thanks">
+                  <h3>사무총장 인사말</h3>
+                  <div></div>
+                   <p>한 초등학교에서 빵 배급을 하고 있습니다. 아이들이 가장 좋아하는 시간입니다. <br> 아이들은 유니세프가 주는 빵으로 허기를 달랩니다. 많은 아이들에게 그날 첫 번째 먹는 식사였습니다.<br> 어떤 아이는 동생에게 주려고 빵을 반 잘라 종이에 싸가기도 합니다.</p>
+                   <p>이 이야기는 아프리카나 남아시아 국가 이야기가 아닙니다. <br> 50년전 우리나라의 이야기이며 저 자신의 이야기이기도 합니다.</p>
+                   <p>한국은 유니세프 역사상 2개의 기록을 세웠습니다.<br> 첫 번째는 1950년부터 유니세프로 부터 원조를 받던 우리나라가 1994년 원조를 주는 나라로 탈바꿈 한 것이고 <br>두번재는 그 후 불과 21년이 지난 2015년부터 전 세계에서 유니세프에 세번째로 많은 민간 기부를 하는 나라가 된 것입니다. 한마디로 유니세프의 존개 이유를 세계에 증명한 것입니다. </p>
+                   <p>이와 같은 경이적인 성과는 바로 전 세계 어린이를 위하는 마음을 가지고 유니세프와 여러 방면으로 함께해 주신 많은 분들 덕분이었습니다.</p>
+                   <p>유니세프는 어려움에 처해 있는 전 세계 어린이들이 더 많은 혜택을 받을 수 있도록 그리고 전 세계 어린이들을 위해 일한다는 긍지를 가지고 더욱 헌신적으로 나눠 주신 사랑을 전하겠습니다.</p>
+                   <p>유니세프는 전 세계 어린이가 행복한 세상을 꿈꿉니다.<br>이 꿈에 Let’s UNICEF, 여러분의 동참을 부탁드립니다.<br>진심으로 감사드립니다.</p>
+               </div>
+        </div>
+    </article>
+   <? include "../common/sub_foot.html" ?>    
+</body>
+</html>

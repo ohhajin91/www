@@ -1,0 +1,105 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>유니세프-브랜드</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->  
+    
+</head>
+<body>
+   
+  <? include "../common/sub_head.html" ?>
+   <? $_GET['num_uni']=3;
+   include "common/sub1_nav.html"; ?>
+    <!-- 본문컨텐츠영역 -->                    
+    <article id="content">
+        
+            <div class="title_area">
+                <div class="line_map">
+                  <span>HOME </span>&gt;<span> 기관소개 </span>&gt; <span> 브랜드 </span>&gt; <strong> CI</strong>  
+                </div>
+                <h2>브랜드</h2>
+                <p>유니세프의 핵심가치와 철학이 담긴 CI(Corporate Identity)와 BI(Brnad Identity)를 소개합니다</p>
+          </div>
+      
+        <div class="content_area">
+              <h3><a href="javascript:void(0);" class="tab tab1">CI</a></h3>
+                <section class="brand content_ci">
+                    <h4>Corporate Identity</h4>
+                    <h5>Tagline</h5>
+               
+                    <div>
+                        <h6>유니세프태그라인로고</h6>
+                        <p>유니세프의 미션, 비전, 가치 액션은 하나의 태그라인으로 압축됩니다. <br><span>for every child</span> 는 유니세프를 대표하는 모든곳에 사용되어야 합니다.</p>
+
+                        <dl>
+                            <dt>for</dt>
+                            <dd>미션 · 가치· 역할에 대한 표현</dd>
+                        </dl>
+                        <dl>
+                            <dt>every</dt>
+                            <dd>모든 어린이가 행복한 세상을 추구하는 정신 </dd>
+                        </dl>
+                        <dl>
+                            <dt>child</dt>
+                            <dd>단 한명의 어린이도 소외되지 않는 의지 표현</dd>
+                        </dl>
+                       </div>
+                
+                    <div>
+                        <h5>Logo</h5>
+                        <p> 유니세프라는 단체를 하나로 통일하며 유니세프라는 이름의 상징뿐만이 아닌 설립이념의 중심인 아동을 상징합니다. <br>유니세프 로고의 가장 적합한 사용은 100% cyan 바탕에 흰색 로고, 또는 하얀 바탕에 100% cyan 로고를 사용하는 것입니다.</p>
+                        <span>cyan100%logo</span>
+                        <span>reversedlogo</span>
+                   </div>
+                    <div>
+                        <h5>Brand style</h5>
+                            <ul class="box">
+                                <li>SIMPLE</li>
+                                <li>OPTIMISTIC</li>
+                                <li>BOLD</li>
+                                <li>CONTEMPORARY</li>
+                            </ul>
+                   </div>
+               
+             </section>
+             <h3><a href="javascript:void(0);" class="tab tab2">BI</a></h3>
+             <section class="brand content_bi">
+                    <h4>Brand Identity</h4>
+                    <p>유니세프 브랜드의 힘은 더 좋은 세상을 구축하고자 하는 비전에 있으며 <br>이러한 비전을 실현하는 역량에 있습니다.</p>
+                    <ul>
+                        <li><span>Mission</span></li>
+                        <li><span>Vision</span></li>
+                        <li><span>Values</span></li>
+                        <li><span>Action</span></li>
+                    </ul>
+               
+                <div>
+                    <p>"브랜드 슬로건"</p>
+                    <h5>for every child</h5>
+                </div>
+                
+             </section>
+          
+        </div>
+      </article>
+   <? include "../common/sub_foot.html" ?>
+    
+</body>
+</html>

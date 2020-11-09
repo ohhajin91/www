@@ -1,0 +1,135 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>유니세프</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="sub/common/sub_common.css">
+<link rel="stylesheet" href="sub/css/sub4_1.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html" ?>
+    <div class="main">
+        <img src="sub/common/sub4_visual.jpg" alt=""> 
+    </div>
+    <!-- 서브네비영역 -->
+    <div class="subnav_box">
+        <h3>아동권리</h3>
+        
+        <div class="subnav">
+            <ul>
+                <li><a class="current" href="sub4_1.html">아동권리협약</a></li>
+                <li><a href="sub4_2.html">아동권리활동</a></li>
+                <li><a href="sub4_3.html">한국아동권리</a></li>
+            </ul>
+        </div>
+    </div>
+         <article id="content">
+             <h2>아동권리협약</h2>
+             <section class="content_area">
+                 <h3 class="hidden">협약</h3>
+                     <div>
+                         <img src="sub/images/child_right_960.jpg" alt="">
+                         <h4>CONVENTION <br>ON THE <br>RIGHTS OF <br>THE CHILD</h4>
+                     </div>
+                 <h5>모든 어린이가 누려야 할 권리</h5>
+                 <ul>
+                     <li>
+                         <dl>
+                             <dt>생존</dt>
+                             <dd>기본적인 삶을 누리는 데 필요한 권리</dd>
+                         </dl>
+                     </li>
+                     <li>
+                         <dl>
+                             <dt>보호</dt>
+                             <dd>어린이에게 유해한 것으로부터 보호받을 권리</dd>
+                         </dl>
+                     </li>
+                     <li>
+                         <dl>
+                             <dt>발달</dt>
+                             <dd>잠재능력을 최대한 발휘하는 데 필요한 권리</dd>
+                         </dl>
+                     </li>
+                     <li>
+                         <dl>
+                             <dt>참여</dt>
+                             <dd>자신의 의견을 말하고 존중받을 권리</dd>
+                         </dl>
+                     </li>
+                 </ul>
+                 <h4>아동권리협약의 기본원칙</h4>
+                 <div>
+                     <ul>
+                         <li>
+                             <h5>비차별</h5>
+                             <dl>
+                                 <dt>NON-DISCRIMINATION</dt>
+                                 <dd>모든 어린이는 부모님이 어떤 사람이건, 어떤 인종이건, 어떤 종교를 믿건, 어떤 언어를 사용하건, 부자건 가난하건, 장애가 있건 없건, 모두 동등한 권리를 누려야 합니다.</dd>
+                             </dl>
+                         </li>
+                         <li>
+                             <h5>아동 최선의 이익</h5>
+                             <dl>
+                                 <dt>DEVOTION TO BEST INTERESTS OF THE CHILD</dt>
+                                 <dd>아동에게 영향을 미치는 모든 것을 결정할 때는 아동의 이익을 최우선으로 고려해야 합니다.</dd>
+                             </dl>
+                         </li>
+                     </ul>
+                     <ul>
+                         <li>
+                             <h5>생존과 발달의 권리</h5>
+                             <dl>
+                                 <dt>THE RIGHT TO LIFE, SURVIVAL AND DEVELOPMENT</dt>
+                                 <dd>어린이는 특별히 생존과 발달을 위해 다양한 보호와 지원을 받아야 합니다.</dd>
+                             </dl>
+                         </li>
+                         <li>
+                             <h5>어린이 의견 존중</h5>
+                             <dl>
+                                 <dt>RESPECT FOR THE VIEWS OF THE CHILD</dt>
+                                 <dd>책임감 있는 어른이 되기 위해 어린이는 자신의 능력에 맞게 적절한 사회활동에 참여할 기회를 갖고, 자신의 의견을 말할 수 있어야 하며 그 의견을 존중받아야 합니다.</dd>
+                             </dl>
+                         </li>
+                     </ul>
+                 </div>
+             </section>
+         </article>         
+<? include "foot.html" ?>
+ 
+</body>
+</html>

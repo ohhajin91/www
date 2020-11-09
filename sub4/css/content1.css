@@ -1,0 +1,83 @@
+#content{overflow: hidden}
+#content .content_inner{width: 1200px; margin: 0 auto; overflow: hidden;position: relative}
+
+/*본문*/
+#content .help .content_inner:nth-of-type(1) h3{font-family: 'Roboto', sans-serif; font-size: 2.5em; text-align: center; margin-bottom: 50px}
+#content .help ul:nth-of-type(1){overflow: hidden; margin-bottom: 100px}
+#content .help .tab{float: left; width: 33%; text-align: center; font-size: 1.25em; border: 1px solid #d9d9d9; padding: 15px 0; transition: all .5s; font-family: 'Nanum Gothic', sans-serif; color: #666}
+
+#content .tabs .contlist{margin-top: 50px; position: relative; left: 0; top: 0; display: none;overflow: hidden}
+
+/*정기후원*/
+#content .help .content_inner:nth-of-type(2){overflow: hidden; margin-bottom: 100px}
+#content .help .content_inner:nth-of-type(2) figure{float: left; width: 295px; height: 500px;margin-right: 15px;position: relative}
+#content .help .content_inner:nth-of-type(2) figure:last-of-type{margin-right: 0}
+#content .help .content_inner:nth-of-type(2)>figure:nth-of-type(1)>figcaption{position: absolute; left: 50px; top: 100px; line-height: 2em; color: #fff}
+#content .help .content_inner:nth-of-type(2)>figure:nth-of-type(1)>figcaption p{font-size: 1.25em;font-family: 'Nanum Myeongjo', serif}
+#content .help .content_inner:nth-of-type(2)>figure:nth-of-type(1)>figcaption h4{font-size: 2.22em; margin: 20px 0}
+#content .help .content_inner:nth-of-type(2) div{position: absolute; left: 280px;top:25px}
+#content .help .content_inner:nth-of-type(2) div figcaption{width: 270px; height: 150px; background: #fff; padding: 20px; box-sizing: border-box; position: absolute; left:20px; bottom: 50px; line-height: 1.5em; text-align: justify}
+#content .help .content_inner:nth-of-type(2) div figcaption h5{font-size: 1.375em; font-family:'Nanum Gothic', sans-serif; margin-bottom: 15px}
+/*해외후원*/
+#content .help .content_inner:nth-of-type(3){overflow: hidden; margin-bottom: 100px}
+#content .help .content_inner:nth-of-type(3) figure{float: left; width: 295px; height: 500px;margin-right: 15px;position: relative}
+#content .help .content_inner:nth-of-type(3) figure:last-of-type{margin-right: 0}
+#content .help .content_inner:nth-of-type(3)>figure:nth-of-type(1)>figcaption{position: absolute; left: 50px; top: 100px; line-height: 2em; color: #fff}
+#content .help .content_inner:nth-of-type(3)>figure:nth-of-type(1)>figcaption p{font-size: 1.25em;font-family: 'Nanum Myeongjo', serif}
+#content .help .content_inner:nth-of-type(3)>figure:nth-of-type(1)>figcaption h4{font-size: 2.22em; margin: 20px 0}
+#content .help .content_inner:nth-of-type(3) div{position: absolute; left: 280px;top:25px}
+#content .help .content_inner:nth-of-type(3) div figcaption{width: 270px; height: 150px; background: #fff; padding: 20px; box-sizing: border-box; position: absolute; left:20px; bottom: 50px; line-height: 1.5em; text-align: justify}
+#content .help .content_inner:nth-of-type(3) div figcaption h5{font-size: 1.375em; font-family:'Nanum Gothic', sans-serif; margin-bottom: 15px}
+
+/*학교병원후원*/
+#content .help .content_inner:nth-of-type(4){overflow: hidden; margin-bottom: 100px}
+#content .help .content_inner:nth-of-type(4) figure{float: left; width: 440px; height: 500px;margin-right: 15px;position: relative}
+#content .help .content_inner:nth-of-type(4) figure:last-of-type{margin-right: 0}
+#content .help .content_inner:nth-of-type(4)>figure:nth-of-type(1)>figcaption{position: absolute; left: 50px; top: 100px; line-height: 2em; color: #fff}
+#content .help .content_inner:nth-of-type(4)>figure:nth-of-type(1)>figcaption p{font-size: 1.25em;font-family: 'Nanum Myeongjo', serif}
+#content .help .content_inner:nth-of-type(4)>figure:nth-of-type(1)>figcaption h4{font-size: 2.22em; margin: 20px 0}
+#content .help .content_inner:nth-of-type(4) div{position: absolute; left: 300px;top:25px}
+#content .help .content_inner:nth-of-type(4) div figcaption{width: 350px; height: 150px; background: #fff; padding: 20px; box-sizing: border-box; position: absolute; left:90px; bottom: 50px; line-height: 1.5em; text-align: justify}
+#content .help .content_inner:nth-of-type(4) div figcaption h5{font-size: 1.375em; font-family:'Nanum Gothic', sans-serif; margin-bottom: 15px}
+
+/*후원박스*/
+#content>div:nth-of-type(2){height: 200px; margin-bottom: 100px; box-shadow: 3px 3px 7px 7px #ccc; position: relative}
+#content>div:nth-of-type(2) p{font-size: 1.25em; line-height: 1.5em; text-align: center;position: relative; top: 25px}
+#content>div:nth-of-type(2) .support{overflow: hidden;font-size: 0.85em; position:relative; left: 50px; top: 55px; margin-left: 200px}
+#content>div:nth-of-type(2) li{float: left; border: 1px solid #d9d9d9;padding: 15px 30px}
+#content>div:nth-of-type(2)>a{background: #00adef; display: block; width: 150px; height: 50px; border-radius: 5px; position: absolute; right: 200px; top: 110px; font-size: 1.111em; font-family:'Nanum Gothic', sans-serif;  text-align: center; padding: 13px 0; box-sizing: border-box; color: #fff;transition: all .8s}
+#content>div:nth-of-type(2)>a:hover{background: none; border: 1px solid #ccc; color: #00adef}
+
+/*고액후원*/
+#content>div:nth-of-type(3){width: 100%; height: 350px; margin-bottom: 100px;background: url(../images/content1/honors.jpg)no-repeat;position: relative}
+#content>div:nth-of-type(3) h4{color: #fff; text-align: center; font-size: 3.125em; position: relative; top: 120px; font-family: 'Roboto', sans-serif}
+#content>div:nth-of-type(4){width: 1200px;position:relative;background: #fff;left: 50%; margin-left: -600px;top: -220px; position: relative}
+#content>div:nth-of-type(4) p{color: #333; line-height: 2em; font-size: 1.25em; text-align: center; margin: 50px auto; font-family:'Nanum Gothic', sans-serif}
+#content>div:nth-of-type(4) dl{overflow: hidden}
+#content>div:nth-of-type(4) dt{float: left; width: 150px;height: 50px; color: #00adef; font-family:'Nanum Gothic', sans-serif; font-size: 1.25em;margin-left: 300px;position: relative}
+#content>div:nth-of-type(4) dt::before{content: ''; width: 10px; height: 10px; border:3px solid #00adef;border-radius: 50%; position: absolute; left: -30px; top: 3px}
+#content>div:nth-of-type(4) table{border-collapse: collapse; width: 1200px; margin: 50px 0}
+#content>div:nth-of-type(4) caption{font-size:1.75em; font-family:'Nanum Gothic', sans-serif; text-align: center; margin-bottom: 50px; position: relative}
+#content>div:nth-of-type(4) th,#content>div:nth-of-type(4) td{border-bottom: 1px dashed #ccc; padding: 20px 10px;text-align: center}
+#content>div:nth-of-type(4) th{font-size: 1.25em; font-family:'Nanum Gothic', sans-serif }
+#content>div:nth-of-type(4) td{font-size: 1.111em}
+#content>div:nth-of-type(4) a{display: block; background: #00adef; width: 150px; height: 35px; border-radius: 5px; position: relative; left: 50%; margin-left: -75px; padding: 5px; box-sizing: border-box; transition: all .8s; color: #fff}
+#content>div:nth-of-type(4)>a:hover{background: none; border: 1px solid #ccc;color: #00adef}
+
+/*mail box*/
+#content .modal_box{position: fixed; left: 0; top: 0; background: rgba(0,0,0,.5);width: 100%; height: 100%;z-index: 100; display: none}
+
+#content .modal{transition: all .8s; transform: scaleY(0); position: fixed; left: 50%; top: 50%; z-index: 105; background: #fff; width:1000px; height:600px; margin-left: -500px; margin-top: -300px; transform: scaleY(0); overflow: hidden; border-radius: 2%; border: 4px solid #00adef}
+#content .modal h5{text-align: center; margin: 20px auto; font-size: 1.5em; font-family:'Nanum Gothic', sans-serif; padding-top: 30px}
+#content .modal .close{font-size: 2.3em; position: absolute; right: 50px; top: 50px}
+#content .modal form{width: 90%; padding: 5%;font-family: 'Roboto', sans-serif}
+#content .modal form ul li{float: none; border: none; padding: 0; margin-bottom: 20px}
+#content .modal form ul dl{overflow: hidden; width: 700px; margin: 10px; text-align: center; position: relative; left: 50%;margin-left: -360px; height: 50px}
+#content .modal form ul li:last-of-type dl{height: 100px}
+#content .modal form dt{float: left; width: 300px; padding-top: 20px}
+#content .modal form dd{float: left; width: 400px}
+#content .modal form dd input{width: 370px; margin-right: 30px; height: 44px}
+#content .modal form dd textarea{width: 370px; margin-right: 30px; height: 94px}
+#content .modal form div:last-of-type{position: relative; left: 50%; margin: 30px auto}
+#content .modal form div:last-of-type .btn{border: none; background: none; cursor: pointer; font-size: 1.2em; text-align: center; margin-left: -30px}
+#content .modal form div:last-of-type .btn:hover{color: #00adef}

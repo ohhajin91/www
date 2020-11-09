@@ -1,0 +1,71 @@
+#content{width: 1200px; margin: 0 auto; overflow: hidden;position: relative}
+#content .qna>a{display: block; font-size: 1.2em; text-align: right; margin-bottom: 15px}
+#content .qna .fa-question-circle{color: #00adef; margin-right: 5px; transition: all .5s; transform: rotateY(0)}
+#content .qna>a:hover .fa-question-circle{transform: rotateY(560deg)}
+/*list.php*/
+#content .qna{position: relative; overflow: hidden; margin-bottom: 50px}
+#content h3{font-family: 'Roboto', sans-serif; font-size: 2.5em; text-align: center; margin-bottom: 50px}
+#content .qna form{height: 40px; margin-top: 30px;margin-bottom: 60px}
+#content .qna form .search_wrap{position: absolute; left: 50%; margin-left: -230px; top: 110px}
+#content .qna form .search_wrap i{font-size: 1.1em; margin-right: 5px}
+#content .qna form .search_wrap select{height: 30px; padding: 0 15px; border: 1px solid #ccc;border-radius: 3px}
+#content .qna form .search_wrap input:nth-of-type(1){height: 26px;width: 300px;  padding-left: 15px; border: 1px solid #ccc; border-radius: 3px; margin: 0 5px}
+#content .qna form ul{overflow: hidden}
+#content .qna form ul li:nth-of-type(1){float: left;
+font-family: 'Roboto', sans-serif; margin-top: 50px}
+#content .qna form ul li:nth-of-type(2){float: right}
+#content .qna form ul select{padding: 5px; border: none; outline: none; font-size: .95em; margin-top: 50px}
+
+#content .qna>div:nth-of-type(1){border-top: 3px solid #00adef; border-bottom: 1px solid #ddd; text-align: center}
+#content .qna>div:nth-of-type(1) ul{overflow: hidden; margin-bottom: 20px}
+#content .qna>div:nth-of-type(1)>ul:nth-of-type(1){background:#f2f2f2; padding: 20px 0;font-family: 'Nanum Gothic', sans-serif}
+#content .qna>div:nth-of-type(1) ul li{float: left}
+#content .qna>div:nth-of-type(1) ul li:nth-of-type(1){width: 15%;font-family: 'Roboto', sans-serif}
+#content .qna>div:nth-of-type(1) ul li:nth-of-type(2){width:40%}
+#content .qna>div:nth-of-type(1) ul li:nth-of-type(3){width:15%}
+#content .qna>div:nth-of-type(1) ul li:nth-of-type(4){width:15%}
+#content .qna>div:nth-of-type(1) ul li:nth-of-type(5){width:15%}
+#content .qna>div:nth-of-type(1) ul li:nth-of-type(7){width:15%}
+#content .qna>div:nth-of-type(1) ul li i{margin-right: 5px; color: #666}
+
+#content .qna .page_button{margin: 50px 0 0 0; text-align: center; position: relative; clear: both}
+#content .qna .page_button i{cursor: pointer; color: #00adef}
+#content .qna .button{position: absolute; right: 0; top: 0}
+
+/*view.php*/
+#content .qna_view p{margin: 30px auto; text-align: center;font-family: 'Nanum Gothic', sans-serif}
+#content .qna_view>div:nth-of-type(1){margin: 30px 0 0 0; border: 1px solid #ddd; border-radius: 3px; padding: 30px;text-align: center}
+#content .qna_view>div:nth-of-type(1) img{margin: 30px auto}
+#content .qna_view .ripple{background: #f2f2f2; padding: 20px 50px}
+#content .qna_view .ripple ul{overflow: hidden; margin-bottom: 20px}
+#content .qna_view .ripple ul li{float: left}
+#content .qna_view .ripple ul li:nth-of-type(1){width: 65%; padding: 5px 10px; box-sizing: border-box;line-height: 1.5em; text-align: justify}
+#content .qna_view .ripple ul li:nth-of-type(2){width: 10%;text-align: center}
+#content .qna_view .ripple ul li:nth-of-type(3){width: 15%; text-align: center}
+#content .qna_view .ripple ul li:nth-of-type(4){width: 10%;text-align: center}
+#content .qna_view .ripple form ul{background: #fff; padding: 10px; position: relative}
+#content .qna_view .ripple form ul li:nth-of-type(1){width: 10%; padding-top: 30px; padding-left: 10px}
+#content .qna_view .ripple form ul li:nth-of-type(2){width: 75%}
+#content .qna_view .ripple form ul li:nth-of-type(3){width: 10%;padding-top: 30px;text-align: right; padding-left: 30px}
+#content .qna_view .ripple form ul li:nth-of-type(3) a{border: 2px solid #00adef; padding: 10px; border-radius: 5px}
+
+#content .qna_view>ul:last-of-type{overflow: hidden; margin: 30px auto;margin-left: 450px}
+#content .qna_view>ul:last-of-type li{float: right; margin-right: 20px; position: relative}
+#content .qna_view>ul:last-of-type li::after{content: '|'; position: absolute; right: -10px; top: 0; color: #999}
+#content .qna_view>ul:last-of-type li:first-of-type::after{content: ''}
+
+/*write.php*/
+#content .qna_write{margin-bottom: 50px}
+#content .qna_write form>ul:nth-of-type(1){overflow: hidden; margin-bottom: 30px; border-bottom: 1px solid #ddd; border-top: 3px solid #00adef; padding: 30px 0; text-align: center}
+#content .qna_write form>ul:nth-of-type(1) li{margin: 10px auto; padding: 10px 0}
+#content .qna_write form>ul:nth-of-type(1)>li:nth-of-type(1){border-bottom: 1px solid #ddd}
+#content .qna_write form>ul:nth-of-type(1)>li:nth-of-type(3){margin-bottom: 0;padding: 0}
+#content .qna_write form>ul:nth-of-type(1)>li:nth-of-type(2) input{width: 98%; padding: 10px 5px}
+#content .qna_write form>ul:nth-of-type(1) li textarea{padding:5px}
+#content .qna_write form>ul:nth-of-type(1) li dl{padding: 10px 0; margin-left: 10px; overflow: hidden}
+#content .qna_write form>ul:nth-of-type(1) li dl dt{float: left; margin-left: 320px; margin-right: 50px}
+#content .qna_write form>ul:nth-of-type(1) li dl dd{float: left}
+#content .qna_write form>ul:nth-of-type(1) li ul i{color: #00adef; font-size: 1.1em;margin-right: 10px}
+#content .qna_write form>ul:last-of-type{overflow: hidden; position: relative; left: 50%; margin-left: -80px}
+#content .qna_write form>ul:last-of-type li{float: left; margin-right: 30px;position: relative}
+#content .qna_write form>ul:last-of-type>li:nth-of-type(1)::after{content: '|'; position: absolute; right: -17px; top: 0; color: #888}

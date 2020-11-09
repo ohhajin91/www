@@ -1,0 +1,12 @@
+#content .content_area .tabs{overflow: hidden; position: relative; margin-bottom: 5%}
+#content .content_area .tabs li{width: 21%; float: left; margin: 0 1.85%}
+#content .content_area .tabs li:last-of-type{float: right}
+#content .content_area .tabs .tab{display: block; padding: 5%; box-sizing: border-box; text-align: center;font-family: 'Nanum Gothic', sans-serif}
+#content .content_area .tab_con{clear: both; overflow: hidden; position: relative; margin-bottom: 10%}
+#content .content_area .history_title{font-size: 1.425em; font-family: 'Nanum Gothic', sans-serif; text-align: center; margin: 3% auto}
+#content .content_area .history_con{position: relative; width: 90%; margin: 5%}
+#content .content_area .history_con dl{margin: 5% 10%; position: relative}
+#content .content_area .history_con dl::before{content: ''; width: 10px; height: 10px; background: #00adef; border-radius: 50%;; position: absolute; left: -20px; top: 50%; margin-top: -10px}
+#content .content_area .history_con dt{font-size: 1.25em; margin: 2% auto; font-weight: bold}
+#content .content_area .history_con dd{line-height: 1.5em}
+#content .content_area .current{border-bottom: 2px solid #00adef; color: #00adef;font-family: 'Nanum Gothic', sans-serif}

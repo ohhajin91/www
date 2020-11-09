@@ -1,0 +1,58 @@
+#content {width: 100%; margin: 0 auto; overflow: hidden}
+/*list.php*/
+#content .story{width: 100%;position: relative; overflow: hidden; margin-bottom: 50px}
+#content h3{font-family: 'Roboto', sans-serif; font-size: 2em; text-align: center; margin-bottom: 50px}
+#content .story form{height: 40px; margin-top: 30px}
+#content .story .search_wrap{position: absolute; margin-left: 12%; top: 10%; width: 90%}
+#content .story .search_wrap i{font-size: 1.1em; margin-right: 5px}
+#content .story .search_wrap select{height: 30px; padding: 0 3%; border: 1px solid #ccc;border-radius: 3px}
+#content .story .search_wrap input:nth-of-type(1){height: 26px;width: 50%;  padding-left:2%; border: 1px solid #ccc; border-radius: 3px; margin: 0 5px}
+#content .story div:nth-of-type(2){overflow: hidden; margin: 3%}
+#content .story div:nth-of-type(2) div:nth-of-type(1){float: left;
+font-family: 'Roboto', sans-serif; margin-top: 15%; padding-left: 2%}
+#content .story div:nth-of-type(2) div:nth-of-type(2){float: right}
+#content .story div:nth-of-type(2) div:nth-of-type(2) select{padding: 5px; border: none; outline: none; font-size: .95em; margin-top: 50%}
+
+#content .story .list_content{border-top: 3px solid #00adef;margin:13% 2%; width: 96%}
+#content .story .list_item{overflow: hidden; padding: 5% 0; border-bottom: 1px solid #ddd; text-align: center}
+#content .story .list_item li{float: left}
+#content .story .list_item li:nth-of-type(1){width: 10%; padding-top: 5%}
+#content .story .list_item li:nth-of-type(2){width: 20%}
+#content .story .list_item li:nth-of-type(2) img{width: 100%}
+#content .story .list_item li:nth-of-type(3){width: 50%; font-family: 'Nanum Gothic', sans-serif; padding-top: 3%}
+#content .story .list_item li:nth-of-type(3) a{display: block; width: 100%; padding: 0 3%; box-sizing: border-box; line-height: 1.5em }
+#content .story .list_item li:nth-of-type(4){width:19%; padding-top: 3%;margin-right: 1%}
+#content .story .list_item .fas{margin-right: 1%; color: #666; padding-top: 20%; display: block}
+
+#content .story .page_button{margin-top: 10%; text-align: center; position: relative}
+#content .story .page_button i{cursor: pointer; color: #00adef}
+#content .story .page_button div:nth-of-type(2){position: absolute; right: 0; top: -180%}
+
+/*view.php*/
+#content .story_view{margin-bottom: 10%; text-align: center; width: 98%; margin: 0 1%}
+#content .story_view ul:nth-of-type(1){overflow: hidden; margin-bottom: 30px; border-bottom: 1px solid #ddd; border-top: 3px solid #00adef}
+#content .story_view ul:nth-of-type(1) li{padding: 3% 0; text-align: center}
+#content .story_view ul:nth-of-type(1) i{margin-right: 2.5%; color: #666}
+#content .story_view ul:nth-of-type(1) li:nth-of-type(2){margin-left: 10%}
+#content .story_view div:nth-of-type(1){margin: 8% auto; border-bottom: 1px solid #ddd; padding-bottom: 5%}
+#content .story_view div:nth-of-type(1) img{margin-bottom: 5%}
+#content .story_view div:nth-of-type(1) p{width:85%; margin-left: 7.5%; text-align: justify; line-height: 2em}
+#content .story_view ul:nth-of-type(2){overflow: hidden; margin-bottom: 8%}
+#content .story_view ul:nth-of-type(2) li{float: right; margin-right: 3%; position: relative}
+#content .story_view ul:nth-of-type(2) li::after{content: '|'; position: absolute; right: -10%; top: 0; color: #999}
+#content .story_view ul:nth-of-type(2) li:first-child::after{content: ''}
+
+/*write_form.php*/
+#content .story_write{margin-bottom: 10%; width:98%; margin: 0 1%}
+#content .story_write form>ul:nth-of-type(1){overflow: hidden; margin-bottom: 5%; border-bottom: 1px solid #ddd; border-top: 3px solid #00adef; padding: 2% 0; text-align: center}
+#content .story_write form>ul:nth-of-type(1) li{margin: 2% auto; padding: 1.5% 0}
+#content .story_write form>ul:nth-of-type(1)>li:nth-of-type(1){border-bottom: 1px solid #ddd}
+#content .story_write form>ul:nth-of-type(1)>li:nth-of-type(2) input{width:94%; padding: 2%; border: 1px solid #666}
+#content .story_write form>ul:nth-of-type(1)>li:nth-of-type(3){width: 94%; margin: 0 1%}
+#content .story_write form>ul:nth-of-type(1) li textarea{width: 100%; padding: 2%}
+#content .story_write form>ul:nth-of-type(1) li ul{padding: 3% 0; margin-left: 20%}
+#content .story_write form>ul:nth-of-type(1) li ul li input{margin-top: 2%}
+#content .story_write form>ul:nth-of-type(1) li ul i{color: #00adef; font-size: 1.1em;margin-right: 3%}
+#content .story_write form>ul:last-of-type{overflow: hidden; position: relative; left: 50%; margin-left: -15%; margin-bottom: 8%}
+#content .story_write form>ul:last-of-type li{float: left; margin-right: 6%;position: relative}
+#content .story_write form>ul:last-of-type>li:nth-of-type(1)::after{content: '|'; position: absolute; right: -44%; top: 0; color: #888}

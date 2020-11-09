@@ -1,0 +1,263 @@
+<?
+session_start();
+@extract($_GET); 
+@extract($_POST); 
+@extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>유니세프-후원안내</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/e7f93bc32d.js" crossorigin="anonymous"></script>
+    <script>
+        function cancle(){
+            history.go(-1);
+        }
+    </script>
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]--> 
+</head>
+<body>
+  <? include "../common/sub_head.html" ?>
+ <? $_GET['num']=1;
+   include "common/sub4_nav.html"; ?>
+     <!-- 본문컨텐츠영역 -->                    
+    <article id="content">
+       <div class="content_inner">
+        <div class="title_area">
+            <div class="line_map">
+              <span>HOME </span>&gt;<span> 후원참여 </span>&gt; <strong>후원안내</strong>  
+            </div>
+            <h2>후원안내</h2>
+            
+        </div>
+     </div>
+  
+        <section class="help tabs">
+         <div class="content_inner">
+           <h3>어린이의 생명을 살리는 아름다운 약속</h3>
+           <ul>
+               <li><h4><a href="#javascript:void(0);" class="tab tab1">정기후원</a></h4></li>
+               <li><h4><a href="#javascript:void(0);" class="tab tab2">해외후원</a></h4></li>
+               <li><h4><a href="#javascript:void(0);" class="tab tab3">학교·병원후원</a></h4></li>
+           </ul> 
+         </div>  
+           <div class="content_inner contlist">
+               <figure>
+                   <img src="../sub4/images/content1/hands.jpg" alt="">
+                   <figcaption>
+                       <p>어린이의 <br>생명을 살리는 <br>아름다운 약속</p>
+                       <h4>정기후원</h4>
+                   </figcaption>
+               </figure>
+               <div>
+               <figure>
+                  <img src="../sub4/images/content1/support01.jpg" alt="">
+                   <figcaption>
+                      <h5>생명 구조</h5>
+                      <p>매년 어린이 590만 명이 다섯 번째 생일을 맞기 전 목숨을 잃습니다.</p> 
+                   </figcaption>
+               </figure>
+               <figure>
+                  <img src="../sub4/images/content1/support02.jpg" alt="">
+                   <figcaption>
+                       <h5>긴급 대응</h5>
+                      <p>정기후원금으로 자연재해, 전쟁 등 긴급 상황 발생 즉시 아이들을 구할 수 있습니다.</p> 
+                   </figcaption>
+               </figure>
+               <figure>
+                  <img src="../sub4/images/content1/support03.jpg" alt="">
+                   <figcaption>
+                       <h5>꾸준한 도움</h5>
+                      <p>교육을 통해 아이들은 올바르게 성장하고 스스로 자립할 수 있습니다.</p> 
+                   </figcaption>
+               </figure> 
+               </div>
+           </div>
+          <div class="content_inner contlist">
+               <figure>
+                   <img src="../sub4/images/content1/hands.jpg" alt="">
+                   <figcaption>
+                       <p>여러분의 후원금으로 <br> 모든 어린이가 <br>행복한 세상을 만듭니다.</p>
+                       <h4>해외후원</h4>
+                   </figcaption>
+               </figure>
+               <div>
+               <figure>
+                  <img src="../sub4/images/content1/world_support01.jpg" alt="">
+                   <figcaption>
+                      <h5>세계어린이 후원</h5>
+                      <p>전 세계 도움이 필요한 어린이들이 건강하게 자라고 안전하게 살 수 있도록 지원합니다.</p> 
+                   </figcaption>
+               </figure>
+               <figure>
+                  <img src="../sub4/images/content1/world_support02.jpg" alt="">
+                   <figcaption>
+                       <h5>난민어린이 후원</h5>
+                      <p>에이즈로 부모를 잃은 어린이를 보호하고 모자감염 예방과 치료를 지원합니다.</p> 
+                   </figcaption>
+               </figure>
+               <figure>
+                  <img src="../sub4/images/content1/world_support03.jpg" alt="">
+                   <figcaption>
+                       <h5>에이즈감염어린이 후원</h5>
+                      <p>교육을 통해 아이들은 올바르게 성장하고 스스로 자립할 수 있습니다.</p> 
+                   </figcaption>
+               </figure> 
+               </div>
+           </div>
+          <div class="content_inner contlist">
+               <figure>
+                   <img src="../sub4/images/content1/hands.jpg" alt="">
+                   <figcaption>
+                       <p>모든 어린이가 <br>건강하게 <br>교육받을 수 있습니다.</p>
+                       <h4>학교·병원후원</h4>
+                   </figcaption>
+               </figure>
+               <div>
+               <figure>
+                  <img src="../sub4/images/content1/school.jpg" alt="">
+                   <figcaption>
+                      <h5>학교후원</h5>
+                      <p>세계 곳곳에서 가난과 전쟁, 기후변화 등으로 고통 받는 친구들을 생각하며 다양한 활동을 통해 기금을 모아보세요.</p> 
+                   </figcaption>
+               </figure>
+               <figure>
+                  <img src="../sub4/images/content1/hospital.jpg" alt="">
+                   <figcaption>
+                       <h5>병원후원</h5>
+                      <p>유니세프는 의료인과 함께 지구촌 구석구석 어린이의 생명을 살리며 소아마비, 말라리아, 에이즈 등으로부터 어린이를 보호하고 있습니다.</p> 
+                   </figcaption>
+               </figure>
+               </div>
+           </div>
+          </section> 
+          
+           <div class="content_inner">
+           <p>190개 국가 및 영토에서 어린이들의 생명을 구하는 <br> 유니세프의 구호활동에 참여해주세요</p>
+           <h4 class="hidden">후원하기</h4>
+           <ul class="support">
+               <li>월 2만원</li>
+               <li>월 3만원</li>
+               <li>월 5만원</li>
+               <li>월 10만원</li>
+           </ul>
+           <a href="#none" class="more" title="후원문의 메일 보내기">후원문의</a>
+           </div>
+            <div>
+             <h4>Honors club</h4>
+              </div>
+              
+            <div class="content_inner">
+                <p>후원자들의 고귀한 뜻을 모으고 우리 사회에 나눔과 봉사의 정신을 전파하고 있습니다.</p>
+                
+                        <dl>
+                            <dt>정회원</dt>
+                            <dd>일시 또는 누적 후원금액이 1억원 이상인 개인기부자</dd>
+                        </dl>
+                   
+                        <dl>
+                            <dt>약정회원</dt>
+                            <dd>일시 또는 누적 후원금액이 1억원 이상인 개인기부자</dd>
+                        </dl>
+                   <table>
+                    <caption class="">아너스클럽 문의</caption>
+                    <thead>
+                        <tr class="row1">
+                            <th scope="col" colspan="2" class="hidden">아너스클럽 문의</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">이메일</th>
+                            <td>major@unicef.or.kr</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">전화번호</th>
+                            <td>02-721-5150</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">운영시간</th>
+                            <td>월~금요일 09:00~18:00 (토, 일요일/공휴일 휴무)</td>
+                        </tr>
+                    </tbody>
+
+                   <tfoot>
+                       <tr class="rowResult">
+                            <th scope="col" colspan="2"><a href="#none" class="more" title="메일문의하기">문의하기</a></th>
+            </tr>
+        </tfoot>
+        </table>
+        </div>
+        <!--mail-->
+            <div class="modal modal1 email">
+               <h5>후원문의</h5>
+               <a href="#none" class='close'><i class="far fa-times-circle"></i></a>
+                <form name="sentMessage" id="contactForm" novalidate>
+                   <ul>
+                    <li>
+                        <dl>
+                            <dt>
+                                <label>Name</label>
+                            </dt>
+                            <dd>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="row control-group">
+                        <dl class="form-group col-xs-12 floating-label-form-group controls">
+                            <dt>
+                                <label>Email Address</label>
+                            </dt>
+                            <dd>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="row control-group">
+                        <dl class="form-group col-xs-12 floating-label-form-group controls">
+                            <dt>
+                                <label>Phone Number</label>
+                            </dt>
+                            <dd>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="row control-group">
+                        <dl class="form-group col-xs-12 floating-label-form-group controls">
+                            <dt>
+                               <label>Message</label> 
+                            </dt>
+                            <dd>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            </dd>
+                        </dl>
+                    </li>
+                    </ul>
+                    <div id="success"></div>
+                    <div class="form-group col-xs-12 send">
+                        <button type="submit" class="btn btn-success btn-lg">Send</button>
+                    </div>
+                </form>
+            </div>
+        <div class="modal_box"> </div>              
+    </article>
+       
+      <? include "../common/sub_foot.html" ?> 
+      <script src="js/sub4.js"></script>
+      <script src="../common/js/bootstrap.min.js"></script>
+      <script src="../common/js/contact_me.js"></script>
+      <script src="../common/js/jqBootstrapValidation.js"></script>
+</body>
+</html>

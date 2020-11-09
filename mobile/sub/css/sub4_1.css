@@ -1,0 +1,19 @@
+#content div:nth-of-type(1){overflow: hidden; margin: 5%}
+#content div:nth-of-type(1) img{float: left; width: 50%}
+#content div:nth-of-type(1) h4{float: right; font-size: 1.7em; line-height: 2em; font-family: 'Roboto', sans-serif; width: 40%; font-weight: bold; margin: 3.5%}
+#content .content_area>h5{font-size: 1.4em; font-family: 'Nanum Gothic', sans-serif; margin-left: 5%; position: relative; margin: 5%}
+#content .content_area>h5::before,#content .content_area>h4::before{content: ''; width: 20px; height: 2px; background: #e34e09;position: absolute; left: 0; bottom: -3px}
+#content .content_area>ul:nth-of-type(1){margin: 5% 0 8% 0}
+#content .content_area>ul:nth-of-type(1)>li{margin: 3% 5%}
+#content .content_area>ul:nth-of-type(1)>li dl{overflow: hidden}
+#content .content_area>ul:nth-of-type(1)>li dt{float: left; width: 10%; background: #024862; color: #fff; border-radius: 5px; padding: 5%; text-align: center; font-family: 'Nanum Gothic', sans-serif}
+#content .content_area>ul:nth-of-type(1)>li dd{float: right; text-align: left; padding: 5%; text-align: end; width: 70%; text-align: justify}
+#content .content_area>h4{font-size: 1.5em; font-family: 'Nanum Gothic', sans-serif; margin: 3%; position: relative}
+
+#content .content_area div:nth-of-type(2)>ul{overflow: hidden}
+#content .content_area div:nth-of-type(2)>ul li{width: 46%; margin: 3% 2%; padding: 1%; box-sizing: border-box}
+#content .content_area div:nth-of-type(2)>ul li:first-of-type{float: left}
+#content .content_area div:nth-of-type(2)>ul li:last-of-type{float: right}
+#content .content_area div:nth-of-type(2)>ul h5{font-size: 1.2em; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 4%; color: #00adef; font-weight: bold}
+#content .content_area div:nth-of-type(2)>ul dt{font-family: 'Roboto', sans-serif; margin: 3% auto}
+#content .content_area div:nth-of-type(2)>ul dd{line-height: 1.5em; text-align: justify}

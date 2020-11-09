@@ -1,0 +1,15 @@
+#content .content_area .tabs{overflow: hidden; margin-bottom: 5%}
+#content .content_area .tabs a{width: 18%; float: left; overflow: hidden;  margin: 0 1%;display: block; text-align: center; font-family: 'Nanum Gothic', sans-serif; padding: 3% 0; box-sizing: border-box}
+#content .content_area .tabs a:last-of-type{float: right}
+#content .content_area .active{border-bottom: 2px solid #00adef; color: #00adef;font-family: 'Nanum Gothic', sans-serif}
+
+#content .swiper-container{margin-bottom: 5%}
+
+#content .content_area .tab_con{margin-bottom: 10%}
+#content .content_area .tab_con h4{font-size: 1.3em; font-family: 'Nanum Gothic', sans-serif; text-align: center; margin: 5% auto}
+#content .content_area .tab_con img{position: relative; left: 50%; margin-left: -42px}
+#content .content_area .tab_con p{margin: 5%; line-height: 1.5em; text-align: justify}
+#content .content_area .tab_con h5{font-size: 1.15em; font-family: 'Nanum Gothic', sans-serif; position: relative; margin: 5% 17%}
+#content .content_area .tab_con h5::before{content: ''; width: 30px; height: 2px; background: #e34e09; position: absolute; left: 0 ;bottom: -3px}
+#content .content_area .tab_con ul li{width: 60%; margin: 5% 17%; text-align: center; line-height: 1.5em; border: 2px solid #ccc; border-radius: 5px; padding: 3%}
+#content .content_area .tab_con ul li span{font-weight: bold}

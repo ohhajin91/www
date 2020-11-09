@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none}
+body {
+ color:#333;
+ font-size:14px;
+ font-family:돋움, Dotum; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none}
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal}
+hr { display:none}
+a { color:inherit}
+a, a:link {
+ color:#333;
+ text-decoration:none}
+a:visited { color:#333}
+a:hover, a:active {
+ color:#333;
+ text-decoration:none}
+em, i, address {
+ font-style:normal;
+ font-weight:normal}
+legend, caption {
+ display:none;
+ clear:both}
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit}
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {
+ border-radius:1px }
+textarea { resize:none}
+label { cursor:pointer}
+table{border-collapse: collapse}
+select, input[type=button], input[type=submit], input[type=reset]{-webkit-appearance:none;}
+.hidden,#skipNav{display: block; position: absolute; left: -10000%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/*전체공통*/
+#wrap{width:100%; position: relative; overflow:hidden}
+
+/*헤더공통*/
+#headerArea{position: relative; z-index: 100; height: 55px}
+#headerArea h1{overflow: hidden; width: 134px; height: 32px; position: absolute; left: 5%; top: 25%}
+#headerArea h1 .logo{display: block; text-indent: -10000%; background:url(../images/logo_320.png) no-repeat;
+ overflow: hidden; width: 134px; height: 32px;background-size:134px 32px; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+ #headerArea h1 .logo{ background: url("../images/logo_640.png");
+     background-size: 134px 32px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+ #headerArea h1 .logo{ background: url("../images/logo_960.png");
+     background-size: 134px 32px;}
+}
+#headerArea .btn{display: block; background: url(../images/bar_320.png)no-repeat; width: 31px; height: 31px; text-indent: -10000%; position: absolute; right: 5%; top: 25%;background-size:31px 31px;}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+ #headerArea h1 .btn{ background: url(../images/bar_640.png);
+     background-size: 31px 31px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+ #headerArea h1 .btn{ background: url(../images/bar_960.png);
+     background-size: 31px 31px;}
+}
+
+/*gnb영역*/
+.box{width: 100%; height: 100%; background:#000; opacity:0.7; position:absolute; left:0; top:0; z-index:10; display:none}
+#gnb{clear:both; width:70%; position:absolute; right:-100%; top:0;  opacity:0; z-index:20; margin-left: 30%; background: #fff}
+#gnb div{overflow: hidden; width: 100%; background: #fff; padding: 20px}
+#gnb div>a:nth-of-type(1){display: block; background: url(../images/navlogo_320.png)no-repeat; width: 34px; height: 29px; text-indent: -10000%;float: left;background-size:34px 29px}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+ #gnb div>a:nth-of-type(1){ background: url(../images/navlogo_640.png);
+     background-size: 34px 29px}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+ #gnb div>a:nth-of-type(1){ background: url(../images/navlogo_960.png);
+     background-size: 34px 29px}
+}
+#gnb .mclose{display: block; float: right; margin-right: 10%; padding: 0 5%}
+#gnb .mclose>i{font-size: 2em; color: #999 }
+
+#gnb>ul:nth-of-type(1){overflow: hidden}
+#gnb>ul:nth-of-type(1)>li{width: 50%; font-family: 'Roboto', sans-serif; text-align: center; font-weight: bold; position: relative;}
+#gnb>ul:nth-of-type(1)>li:first-of-type::after{content: '|'; color: #666; position: absolute; right: 0; top: 25%}
+#gnb>ul:nth-of-type(1)>li a{display: block; width: 100%; font-family: 'Roboto', sans-serif; text-align: center;  padding: 5%}
+#gnb>ul:nth-of-type(1)>li:nth-of-type(1){float: left}
+#gnb>ul:nth-of-type(1)>li:nth-of-type(2){float: right}
+
+#gnb .main_menu{padding: 10%}
+#gnb .depth1{overflow: hidden}
+#gnb .depth1 h3{overflow: hidden}
+#gnb .depth1 a{display: block; padding: 15px 0; margin-left: 20px;border-bottom: 1px solid #ccc; width: 100%; float: left;text-align: justify; font-weight: bold; font-family: 'Nanum Gothic', sans-serif; font-size: 1.3em;} 
+#gnb .depth1 .fas{font-size: 1.1em; color: #00adef; float: right; margin-right: 15%}
+#gnb .main_menu ul{background:#fff; display: none; clear: both}
+#gnb .main_menu ul li{width: 80%; margin-left: 20%}
+#gnb .main_menu ul li a{font-size: 1.1em; display: block;width: 100%; border-bottom: none; position: relative; left: 0;top: 0; font-weight: normal}
+#gnb .main_menu ul li a::before{content: ''; width: 5px; height: 5px; border-radius: 50%; background: #00adef; position: absolute; left: -4%; top: 45%}
+
+/*푸터공통*/
+#footerArea{overflow: hidden; position: relative; background: #2f2f2f; left: 0; bottom: 0}
+#footerArea ul{width: 100%; overflow: hidden; border-bottom: 1px solid #ccc; margin-bottom: 10px}
+#footerArea ul li{width: 33.33%; float: left; position: relative;left: 0; top: 0}
+#footerArea ul li::after{content: '|'; color: #ccc; position: absolute; right: 0; top: 30%}
+#footerArea ul li:last-of-type::after{content: none}
+#footerArea ul li a{display: block; width: 100%;font-size: 1.286em; font-family: 'Roboto', sans-serif; color: #fff; padding: 5%; text-align: center}
+#footerArea span {display: block; text-indent: -10000%; position: relative; left: 50%; margin-left: -33.5px; background:url(../images/footerlogo_320.png) no-repeat;
+ overflow: hidden; width: 67px; height: 35px;background-size:67px 35px; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+ #footerArea span { background: url("../images/footerlogo_640.png");
+     background-size: 67px 35px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+ #footerArea span { background: url("../images/footerlogo_960.png");
+     background-size: 67px 35px;}
+}
+#footerArea p{width: 100%; font-size: 1.1em; font-family: 'Roboto', sans-serif; color: #ccc; text-align: center; margin: 10px; line-height: 1.5em}
+
+
+
+

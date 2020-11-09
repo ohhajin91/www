@@ -1,0 +1,39 @@
+body{width: 98%;background: #f2f2f2;position: relative}
+.sub_cont_wrap{width: 90%; position: relative; left: 5%; top: 60px}
+
+.sub_cont_wrap h1{position: relative; left: 50%; margin-left: -100px; margin-bottom: 70px; width: 200px; height: 26px}
+
+.sub_cont_wrap h1 a{display: block;background: url("../../images/login_logo_320.png")no-repeat; width: 200px; height: 26px; text-align: center; text-indent: -100000px; overflow: hidden;
+     background-size: 200px 26px;}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+.sub_cont_wrap h1 a{ background: url("../../images/login_logo_640.png");
+     background-size: 200px 26px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+.sub_cont_wrap h1 a{ background: url("../../images/login_logo_960.png");
+     background-size: 200px 26px;}
+}
+.member_tab{padding: 30px 0;border-top: 1px solid #333}
+.member_tab a{font-size: 24px;padding: 10px;margin: 0 10px;color: #aaa}
+.member_tab a.on{color: #000;border-bottom: 2px solid #000;font-weight: bold}
+.member_tab span{font-size: 24px;padding: 10px;margin: 0 10px;color: #000;font-weight: bold}
+
+.join{text-align: left; padding: 3% 5%;box-sizing: border-box; width: 100%}
+.join h4{font-size: 1em;margin: 2% 5%; position: relative}
+.join h4::before{content: ''; width: 7px; height: 7px; border-radius: 50%; background: #00adef; left: -15px; top:28%; position: absolute}
+.join .policy{padding: 5%;overflow-y: scroll;height: 28px;border: 1px solid #ddd; font-size: 0.875em; width: 100%; line-height: 1.5em; background: #f6f6f6; box-sizing: border-box}
+
+.join .button{text-align: center;margin: 30px auto; padding-top: 30px}
+.join .button .ok,.join .button button{display: inline-block;width: 40%;line-height: 24px;padding: 8px 0;border: none;background: #00adef;color: #fff;font-size: 0.875em;cursor: pointer}
+.join .button .cancel{display: inline-block;width: 40%;line-height: 24px;padding: 8px 0;border: none;background: #999;color: #fff;font-size: 0.875em;cursor: pointer}
+.join .button .allcheck{display:block; width: 80%; height: 24px; padding: 8px 0; background: #004762; color: #fff; margin-left: 10%; margin-bottom: 15px; line-height: 24px;font-size: 0.875em}
+
+.all{border-bottom: 1px solid #ccc; padding: 15px 20px; margin: 3%; width: 94%; box-sizing: border-box; margin-bottom: 50px}
+.all label{position: relative}
+.all label::before{content: ''; width: 8px; height: 8px; position: absolute; left: -20px; top: 25%; border-radius: 50%; background: #00adef}
+.all input{margin-left: 90px}
+
+.box{position: relative; margin-bottom: 30px}
+.box:nth-of-type(1){margin-top: 30px}
+.check{position: relative; right: 0; bottom: -10px; font-size: 0.9em}
